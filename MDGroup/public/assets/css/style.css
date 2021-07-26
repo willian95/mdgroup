@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main-content{
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.main-content__text{
+  position: absolute;
+  text-align: center;
+}
+.logo{
+
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+
+}
+.coming{
+  font-family: "futura-bold";
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+ 
+  margin-bottom: 2rem;
+}
+@font-face {
+  font-family: "futura-bold";
+  src: url("../fonts/Futura-Bold.woff"); /* IE9*/
+  src: url("../fonts/Futura-Bold.woff") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Futura-Bold.woff") format("woff"),
+    /* chrome、firefox */ url("../fonts/Futura-Bold.woff") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+.main-content::before{
+  position: absolute;
+  background: #2f2f2f38;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .logo {
+    width: 90%;
+  }
+  .coming {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+}
