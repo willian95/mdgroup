@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MDGROUP</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -15,6 +16,7 @@
   <link rel="stylesheet" href="{{ url('assets/css/custom.css') }}">
 </head>
 
+
 <body>
   <header id="home">
     <nav class="navbar navbar-expand-lg navbar-fixed-js">
@@ -22,9 +24,14 @@
         <a class="navbar-brand" href="#">
           <img id="iso" src="{{ url('assets/img/logo.png') }}">
         </a>
-      
+        <button class="navbar-toggler  border-0 hamburger hamburger--elastic btn-xs " data-toggle="offcanvas"
+            type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
       </div>
-      <div class="navbar ml-auto">
+      <div class="navbar ml-auto nav-desk">
         <ul class="navbar-nav ">
           <li class="dropdown nav-item">
             <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#"
@@ -42,7 +49,7 @@
             <a class="nav-link" href="details.hml">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link noline" href="#product">Call now: 568 564 9876</a>
+            <a class="nav-link noline" href="tel:568 564 9876">Call now: 568 564 9876</a>
           </li>
           <li>
             <button class="navbar-toggler  border-0 hamburger hamburger--elastic " data-toggle="offcanvas"
@@ -73,7 +80,7 @@
             <a class="nav-link" href="details.hml">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link noline" href="#product">Call now: 568 564 9876</a>
+            <a class="nav-link noline" href="tel:568 564 9876">Call now: 568 564 9876</a>
           </li>
         </ul>
       </div>
@@ -92,7 +99,7 @@
   </header>
   <div class="wrapper">
     <div class="slider-banner">
-      <div><img src="{{ url('assets/img/banner (4).png') }}"></div>
+    <div><img src="{{ url('assets/img/banner (4).png') }}"></div>
       <div><img src="{{ url('assets/img/banner (3).png') }}"></div>
       <div><img src="{{ url('assets/img/banner (1).png') }}"></div>
       <div><img src="{{ url('assets/img/banner (2).png') }}"></div>
@@ -102,29 +109,33 @@
   <section>
     <div class="container">
       <div class="main-content">
-        <div class="main-content_item">
-          <img src="{{ url('assets/img/mini/1Recurso 1.png') }}" alt="">
+        <div class="main-content_item"  data-aos="fade-up"
+        data-aos-duration="1000">
+        <img src="{{ url('assets/img/mini/1Recurso 1.png') }}" alt="">
           <div class="main-content_txt">
             <p>+20 years of</p>
             <span>global operations</span>
           </div>
         </div>
-        <div class="main-content_item">
-          <img src="{{ url('assets/img/mini/1Recurso 2.png') }}" alt="">
+        <div class="main-content_item" data-aos="fade-up"
+        data-aos-duration="2000">
+        <img src="{{ url('assets/img/mini/1Recurso 2.png') }}" alt="">
           <div class="main-content_txt">
             <p>NTEGRATION</p>
             <span>of our services</span>
           </div>
         </div>
-        <div class="main-content_item">
-          <img src="{{ url('assets/img/mini/1Recurso 3.png') }}" alt="">
+        <div class="main-content_item" data-aos="fade-up"
+        data-aos-duration="3000">
+        <img src="{{ url('assets/img/mini/1Recurso 3.png') }}" alt="">
           <div class="main-content_txt">
             <p> +1 BILLION</p>
             <span> IN PROCESSED CLAIMS</span>
           </div>
         </div>
-        <div class="main-content_item">
-          <img src="{{ url('assets/img/mini/1Recurso 4.png') }}" alt="">
+        <div class="main-content_item" data-aos="fade-up"
+        data-aos-duration="3000">
+        <img src="{{ url('assets/img/mini/1Recurso 4.png') }}" alt="">
           <div class="main-content_txt">
             <p> TOP NOTCH</p>
             <span> MANAGEMENT INTEGRATION</span>
@@ -138,7 +149,7 @@
 
   <section class="main-background" style="background:url('assets/img/background.png')">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-up" >
         <p>
           <strong> OVER TWO DECADES</strong> <br>
 
@@ -148,15 +159,14 @@
           service your claim.</p>
       </div>
       <div class="col-md-6">
-        <img src="{{ url('assets/img/logo3.png') }}" alt="">
+        <img data-aos="zoom-in" data-aos-duration="2500" src="{{ url('assets/img/logo3.png') }}" alt="">
       </div>
     </div>
   </section>
-
   <section class="main-background_blue">
     <div class="container">
-      <div class="row ">
-        <div class="col-md-5">
+      <div class="row " data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-md-5"  >
           <p class="txt">BRIEF <br>
             SUMMARY <br>
             OF SERVICES</p>
@@ -199,10 +209,9 @@
     </div>
 
   </section>
-
   <section class="md-abrodad" style="background:url('assets/img/banner.png')">
-    <div class="md-abrodad_item container">
-      <img src="{{ url('assets/img/logored.png') }}" alt="">
+    <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
+    <img src="{{ url('assets/img/logored.png') }}" alt="">
       <strong>WE PROMISE TO MAKE
         YOUR LIFE BETTER</strong>
       <p>We protect your brand equity and make your
@@ -213,29 +222,33 @@
   <section class="mt-5 .mb-5">
     <div class="container">
       <div class="main-content">
-        <div class="main-content_item">
-          <img src="{{ url('assets/img/mini/ddRecurso 8.png') }}" alt="">
+        <div class="main-content_item" data-aos="fade-up"
+        data-aos-duration="1000">
+        <img src="{{ url('assets/img/mini/ddRecurso 8.png') }}" alt="">
           <div class="main-content_txt">
             <p>MEDICAL <br>
               ASSISTANCE</p>
           </div>
         </div>
-        <div class="main-content_item">
-          <img src="{{ url('assets/img/mini/ddsRecurso 8.png') }}" alt="">
+        <div class="main-content_item" data-aos="fade-up"
+        data-aos-duration="2000">
+        <img src="{{ url('assets/img/mini/ddsRecurso 8.png') }}" alt="">
           <div class="main-content_txt">
             <p>tRAVEL <br>
               ASSISTANCE</p>
           </div>
         </div>
-        <div class="main-content_item">
-          <img src="{{ url('assets/img/mini/qqRecurso 8.png') }}" alt="">
+        <div class="main-content_item" data-aos="fade-up"
+        data-aos-duration="3000">
+        <img src="{{ url('assets/img/mini/qqRecurso 8.png') }}" alt="">
           <div class="main-content_txt">
             <p> COST <br>
               CONTAINMENT</p>
           </div>
         </div>
-        <div class="main-content_item">
-          <img src="{{ url('assets/img/mini/ssdRecurso 8.png')}}" alt="">
+        <div class="main-content_item" data-aos="fade-up"
+        data-aos-duration="3000">
+        <img src="{{ url('assets/img/mini/ssdRecurso 8.png')}}" alt="">
           <div class="main-content_txt">
             <p>QUALITY <br>
               ASSURANCE</p>
@@ -249,11 +262,11 @@
 
   <section class="main-services">
     <div class="main-services_item">
-      <div class="titles-service mt-0">
+      <div class="titles-service mt-0 " data-aos="fade-right">
         <h2>365/24/7 ASSISTANCE SERVICES</h2>
       </div>
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/service/services (2).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (2).png') }}" alt=""></div>
         <div class="ml-4">
           <p> <strong>MDabroad´s</strong> assistance services are multi-faceted,
             many travelers are rarely prepared for illness while
@@ -286,7 +299,7 @@
       </div>
     </div>
     <div class="main-services_item mt-5">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>BETTER MEDICAL ASSISTANCE</h2>
       </div>
       <div class="main-services_content">
@@ -317,18 +330,18 @@
             · Return to home country due to health reasons
           </p>
         </div>
-        <div>
-          <img src="{{ url('assets/img/service/services (9).png') }}" alt="">
+        <div data-aos="fade-left" data-aos-duration="1000">
+        <img src="{{ url('assets/img/service/services (9).png') }}" alt="">
         </div>
 
       </div>
     </div>
     <div class="main-services_item">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>TELEMEDICINE: THE FUTURE IS HERE</h2>
       </div>
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/service/services (8).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (8).png') }}" alt=""></div>
         <div class="ml-4">
           <p>
             In simple cases, our Operations Center may offer the
@@ -357,7 +370,7 @@
       </div>
     </div>
     <div class="main-services_item mt-5">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>EXTRAORDINARY ASSISTANCE SERVICES</h2>
       </div>
       <div class="main-services_content">
@@ -386,18 +399,18 @@
             most cost-effective networks and minimize utilization
           </p>
         </div>
-        <div>
-          <img src="{{ url('assets/img/service/services (6).png') }}" alt="">
+        <div  data-aos="fade-left" data-aos-duration="1000">
+        <img src="{{ url('assets/img/service/services (6).png') }}" alt="">
         </div>
 
       </div>
     </div>
     <div class="main-services_item">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>TECHNICAL & PERSONAL TRAVEL ASSITANCE</h2>
       </div>
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/service/services (5).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (5).png') }}" alt=""></div>
         <div class="ml-4">
           <p>
             Tracking of lost luggage and concierge services
@@ -424,7 +437,7 @@
       </div>
     </div>
     <div class="main-services_item mt-5">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>A FOCUS ON INTELLIGENT COST CONTAINMENT</h2>
       </div>
       <div class="main-services_content">
@@ -446,18 +459,18 @@
             audit that happens after the fact.
           </p>
         </div>
-        <div>
-          <img src="{{ url('assets/img/service/services (3).png') }}" alt="">
+        <div  data-aos="fade-left" data-aos-duration="1000">
+        <img src="{{ url('assets/img/service/services (3).png') }}" alt="">
         </div>
 
       </div>
     </div>
     <div class="main-services_item main-services_item-edit">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>FRAUD CONTROL</h2>
       </div>
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/service/services (4).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000">  <img src="{{ url('assets/img/service/services (4).png') }}" alt=""></div>
         <div class="ml-4 center">
           <p class="txt-strong"> ORWARD VISION COST CONTAINMENT
             FRAUD CONTROL AND AUDITINGL</p>
@@ -473,7 +486,7 @@
       </div>
     </div>
     <div class="main-services_item  main-services_item-edit mt-5">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>WORLDWIDE NETWORK ACCESS</h2>
       </div>
       <div class="main-services_content">
@@ -499,18 +512,18 @@
             patients in many markets in the global arena
           </p>
         </div>
-        <div>
-          <img src="{{ url('assets/img/service/services (10).png') }}" alt="">
+        <div  data-aos="fade-left" data-aos-duration="1000">
+        <img src="{{ url('assets/img/service/services (10).png') }}" alt="">
         </div>
 
       </div>
     </div>
     <div class="main-services_item ">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>CLAIMS MANAGEMENT & REPRICING</h2>
       </div>
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/service/services (1).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (1).png') }}" alt="">></div>
         <div class="ml-4 center">
           <p>
             <strong> MDabroad</strong> offers payers meticulous case
@@ -541,7 +554,7 @@
       </div>
     </div>
     <div class="main-services_item mt-5">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>FUNDING PROGRAM , RECOVERIES,
           SUBROGATION</h2>
       </div>
@@ -580,18 +593,18 @@
             dollars can be recovered for all interested parties.
           </p>
         </div>
-        <div>
-          <img src="{{ url('assets/img/service/services (11).png') }}" alt="">
+        <div  data-aos="fade-left" data-aos-duration="1000">
+        <img src="{{ url('assets/img/service/services (11).png') }}" alt="">
         </div>
 
       </div>
     </div>
-    <div class="main-services_item  " style="height: 90vh;">
-      <div class="titles-service ">
+    <div class="main-services_item  h90">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>SERVICE AT THE SPEED OF DISCOUNT</h2>
       </div>
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/service/services (13).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (13).png') }}" alt=""></div>
         <div class="ml-4">
           <p>
             Payers can get substantial discounts when paying
@@ -608,8 +621,8 @@
         </div>
       </div>
     </div>
-    <div class="main-services_item mt-5  " style="height: 90vh;">
-      <div class="titles-service ">
+    <div class="main-services_item mt-5 h90 " >
+      <div class="titles-service "  data-aos="fade-right">
         <h2>ACCESS YOUR INFORMATION ANYTIME, <br>
           ANYWHERE , ANY PLATFORM</h2>
       </div>
@@ -628,17 +641,17 @@
             <a class="btn" href="#">Click here</a>
           </div>
         </div>
-        <div> <img src="{{ url('assets/img/service/services (12).png') }}" alt=""></div>
+        <div  data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (12).png') }}" alt=""></div>
 
       </div>
     </div>
     <div class="main-services_item mt-5">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>FOCUS ON THE PERSON: CUSTOMER <br>
           SATISFACTION & QUALITY ASSURANCE</h2>
       </div>
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/service/services (7).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (7).png') }}" alt=""></div>
         <div class="ml-4 center">
           <p>
             <strong> Service Delivery Metrics: </strong> <br>
@@ -672,7 +685,7 @@
     <div class="titles-service mt-0">
       <h2>SERVICE LEVELS</h2>
     </div>
-    <div class="container services-level">
+    <div class="container services-level" data-aos="zoom-in">
       <div class="level-item">
         <div class="level-item_one">
           <p><strong>MDabroad</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi
@@ -762,7 +775,7 @@
   </section>
 
   <section class="md-abrodad main-cyber" style="background:url('assets/img/banner.png')">
-    <div class="md-abrodad_item container">
+    <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
 
       <strong>CYBERSECURITY: </strong>
       <strong>AHEAD OF THE HERE AND NOW
@@ -777,8 +790,8 @@
     </div>
   </section>
 
-  <section class="main-about ">
-    <div class="container">
+  <section class="main-about " >
+    <div class="container" data-aos="fade-up" data-aos-duration="2000">
       <h2><strong>ABOUT US</strong></h2>
       <div class="row">
         <div class="col-md-6">
@@ -851,17 +864,17 @@
 
   </section>
 
-  <section class="main-management">
+  <!---<section class="main-management">
     <div class="titles-service mt-0">
       <h2>TOP MANAGEMENT BIOS</h2>
     </div>
 
     <p><strong>MDabroad</strong></p>
-  </section>
+  </section>-->
 
-  <section class="main-services located">
+  <section class="main-services located mb-5">
     <div class="main-services_item mt-5 main-service_modif">
-      <div class="titles-service ">
+      <div class="titles-service "  data-aos="fade-right">
         <h2>LOCATED IN SOUTH FLORIDA </h2>
       </div>
       <div class="main-services_content">
@@ -888,13 +901,13 @@
 
 
         </div>
-        <div> <img src="{{ url('assets/img/other/services (9).png') }}" alt=""></div>
+        <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (9).png') }}" alt=""></div>
       </div>
     </div>
   </section>
 
   <section class="md-abrodad advaced" style="background:url('assets/img/other/services (2).png')">
-    <div class="md-abrodad_item container">
+    <div class="md-abrodad_item container" data-aos="fade-up" data-aos-duration="2000">
 
       <strong>ADVACED PAYMENT </strong>
       <h2>AND CLAIMS FUNDING</h2>
@@ -904,11 +917,11 @@
 
   <section class="main-services located mb-5">
     <div class="main-services_item mt-5 main-service_modif">
-      <div class="titles-service ">
+      <div class="titles-service " data-aos="fade-right">
         <h2>LLIKE ACETAMINOPHEN FOR YOUR CFEO</h2>
       </div>
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/other/services (6).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/other/services (6).png') }}" alt=""></div>
         <div class="ml-4 center">
           <p>
             <strong> MDabroad </strong> Claims Funding (MDCF) is our unique
@@ -931,7 +944,7 @@
 
       <div class="main-services_content">
         <div class="ml-4 center">
-          <div class="titles-service ">
+          <div class="titles-service " data-aos="fade-right">
             <h5>WE HAVE ESTEABLISHES AN <br>
               INDUSTRY-FIRST INTERNATIONAL <br>
               CLAIMS ADVANCED FUND TO SATISFY <br>
@@ -949,15 +962,15 @@
           </p>
 
         </div>
-        <div> <img src="{{ url('assets/img/other/services (5).png') }}" alt=""></div>
+        <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (5).png') }}" alt=""></div>
       </div>
     </div>
     <div class="main-services_item mt-5  main-service_modif">
 
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/other/services (4).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (4).png') }}" alt=""></div>
         <div class="ml-4 center">
-          <div class="titles-service ">
+          <div class="titles-service " data-aos="fade-right">
             <h5>WE HAVE ESTEABLISHES AN <br>
               INDUSTRY-FIRST INTERNATIONAL <br>
               CLAIMS ADVANCED FUND TO SATISFY <br>
@@ -981,7 +994,7 @@
     <div class="main-services_item mt-5  main-service_modif">
       <div class="main-services_content">
         <div class="ml-4 center">
-          <div class="titles-service ">
+          <div class="titles-service " data-aos="fade-right">
             <h5>LEGIBILITY : VERIFICATION OF BENEFITS, <br>
               GOPS, EXTENSIONS</h5>
           </div>
@@ -999,15 +1012,15 @@
           </p>
 
         </div>
-        <div> <img src="{{ url('assets/img/other/services (3).png') }}" alt=""></div>
+        <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (3).png') }}" alt=""></div>
       </div>
     </div>
     <div class="main-services_item mt-5  main-service_modif">
 
       <div class="main-services_content">
-        <div> <img src="{{ url('assets/img/other/services (1).png') }}" alt=""></div>
+        <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (1).png') }}" alt=""></div>
         <div class="ml-4 center">
-          <div class="titles-service ">
+          <div class="titles-service " data-aos="fade-right" >
             <h5>ASE STATUS, COMMUNICATIONS LOG <br>
               AND AUDIT TRAIL</h5>
           </div>
@@ -1026,7 +1039,7 @@
     <div class="main-services_item mt-5  main-service_modif">
       <div class="main-services_content">
         <div class="ml-4 center">
-          <div class="titles-service ">
+          <div class="titles-service" data-aos="fade-right">
             <h5>AGGREGTION, THE POWER OF NUMBERS</h5>
           </div>
           <p>
@@ -1039,7 +1052,7 @@
             that result in reduced denials and improved
             collections.
           </p>
-          <div class="titles-service ">
+          <div class="titles-service " data-aos="fade-right">
             <h5>WHITE LABEL MOBILE APPLICATIONS</h5>
           </div>
           <p>Our suite of applications and IT products enables
@@ -1047,7 +1060,7 @@
             consultation, SMS and WhatsApp notifications and
             communication with patients and their families</p>
         </div>
-        <div> <img src="{{ url('assets/img/other/services (8).png') }}" alt=""></div>
+        <div data-aos="fade-right"  data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (8).png') }}" alt=""></div>
       </div>
     </div>
   </section>
@@ -1057,7 +1070,7 @@
 
       <div class="row">
         <div class="col-md-9">
-          <div class="slider-banner items_blue">
+          <div class="slider-banner items_blue" data-aos="zoom-in" data-aos-duration="2500">
             <div>
               <h2 class="s"><strong>NLIMITED 24/7 SUPPORT, <br>
                   TRAINING AND SERVICE</strong></h2> <br>
@@ -1142,10 +1155,16 @@
   </footer>
 
 
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
   
   <script src="{{ url('assets/js/custom.js') }}"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
