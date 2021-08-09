@@ -99,10 +99,13 @@
   </header>
   <div class="wrapper">
     <div class="slider-banner">
-    <div><img src="{{ url('assets/img/banner (4).png') }}"></div>
+      {{--<div><img src="{{ url('assets/img/banner (4).png') }}"></div>
       <div><img src="{{ url('assets/img/banner (3).png') }}"></div>
       <div><img src="{{ url('assets/img/banner (1).png') }}"></div>
-      <div><img src="{{ url('assets/img/banner (2).png') }}"></div>
+      <div><img src="{{ url('assets/img/banner (2).png') }}"></div>--}}
+      @foreach(App\Models\Banner::all() as $banner)
+      <div><img src="{{ $banner->image }}"></div>
+      @endforeach
     </div>
   </div>
 
