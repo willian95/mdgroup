@@ -83,13 +83,8 @@ const app = new Vue({
                         this.email = ""
                         this.password = ""
 
-                        if (res.data.role_id == 2) {
-
-                            window.location.href = "{{ url('/') }}"
-
-
-                        } else if (res.data.role_id == 1)
-                            window.location.href = res.data.url
+                        
+                        window.location.href = "{{ url('/home') }}"
 
                     } else {
                         alert(res.data.msg)

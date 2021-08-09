@@ -23,7 +23,7 @@
                                 <!--end::Dropdown-->
                                 <!--begin::Button-->
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bannerModal" @click="create()">
-                                    Nuevo Banner
+                                    New Banner
                                 </button>
                                 <!--end::Button-->
                             </div>
@@ -34,18 +34,18 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Imagen</th>
-                                        <th width="200">Acciones</th>
+                                        <th>Image</th>
+                                        <th width="200">Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr v-for="(banner, index) in banners">
                                         <th>@{{ index + 1 }}</th>
                                         <td>
-                                            <img :src="'{{ url('/images/banners') }}'+'/'+banner.image" alt="" style="width: 20%">
+                                            <img :src="banner.image" alt="" style="width: 20%">
                                         </td>
                                         <td>
-                                            <button class="btn btn-primary" data-toggle="modal" data-target="#bannerModal" @click="edit(banner)"><i class="far fa-edit"></i></button>
+                                            {{--<button class="btn btn-primary" data-toggle="modal" data-target="#bannerModal" @click="edit(banner)"><i class="far fa-edit"></i></button>--}}
                                             <button class="btn btn-primary" @click="erase(banner.id)"><i class="far fa-trash-alt"></i></button>
                                         </td>
                                     </tr>
@@ -53,7 +53,7 @@
                             </table>
                             <div class="row">
                                 <div class="col-sm-12 col-md-5">
-                                    <div class="dataTables_info" id="kt_datatable_info" role="status" aria-live="polite">Mostrando página @{{ currentPage }} de @{{ totalPages }}</div>
+                                    <div class="dataTables_info" id="kt_datatable_info" role="status" aria-live="polite">Showing page @{{ currentPage }} of @{{ totalPages }}</div>
                                 </div>
                                 <div class="col-sm-12 col-md-7">
                                     <div class="dataTables_paginate paging_full_numbers" id="kt_datatable_paginate">
@@ -88,7 +88,7 @@
                         <div class="modal-body">
 
                             <div class="form-group">
-                                <label for="picture">Imagen</label>
+                                <label for="picture">Image</label>
                                 <input type="file" id="image" class="form-control" id="picture" ref="file" @change="onImageChange" accept="image/*">
                             </div>
                             <div class="form-group">
@@ -99,8 +99,8 @@
                         
                         <div class="modal-footer">
                             <button type="button" class="btn btn-light-primary font-weight-bold" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary font-weight-bold"  @click="store()" v-if="action == 'create'">Crear</button>
-                            <button type="button" class="btn btn-primary font-weight-bold"  @click="update()" v-if="action == 'edit'">Actualizar</button>
+                            <button type="button" class="btn btn-primary font-weight-bold"  @click="store()" v-if="action == 'create'">Create</button>
+                            <button type="button" class="btn btn-primary font-weight-bold"  @click="update()" v-if="action == 'edit'">Update</button>
                         </div>
                     </div>
                 </div>
@@ -273,8 +273,8 @@
                 erase(id){
 
                     swal({
-                        title: "¿Estás seguro?",
-                        text: "Eliminarás este banner!",
+                        title: "Are you sure?",
+                        text: "You will delete this banner!",
                         icon: "warning",
                         buttons: true,
                         dangerMode: true,
@@ -286,8 +286,8 @@
                                 this.loading = false
                                 if(res.data.success == true){
                                     swal({
-                                        title: "Genial!",
-                                        text: "Banner eliminado!",
+                                        title: "Great!",
+                                        text: "Banner deleted!",
                                         icon: "success"
                                     });
                                     this.fetch()

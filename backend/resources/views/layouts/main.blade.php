@@ -17,7 +17,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!--begin::Head-->
 	<head><base href="../../../">
 		<meta charset="utf-8" />
-		<title>AIDA CMS</title>
+		<title>MDGROUP</title>
 		<meta name="description" content="User datatable listing" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="canonical" href="https://keenthemes.com/metronic" />
@@ -221,7 +221,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							<!--begin::Copyright-->
 							<div class="text-dark text-center" style="width: 100%;">
 								<span class="text-muted font-weight-bold mr-2">2020 - 2021©</span>
-								<a href="h#" target="_blank" class="text-dark-75 text-hover-primary">Aida Caceres Art Copyright</a>
+								<a href="h#" target="_blank" class="text-dark-75 text-hover-primary">MDGroup Copyright</a>
 							</div>
 							<!--end::Copyright-->
 							<!--begin::Nav-->

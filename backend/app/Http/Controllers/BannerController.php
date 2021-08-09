@@ -43,7 +43,7 @@ class BannerController extends Controller
         try{
 
             $banner = new Banner;
-            $banner->image = $fileName;
+            $banner->image = url('/').'/images/banners/'.$fileName;
             $banner->save();
 
             return response()->json(["success" => true, "msg" => "Banner creado"]);
