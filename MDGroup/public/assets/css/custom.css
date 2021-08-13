@@ -70,7 +70,9 @@ button:focus {
   padding-top: 25px;
   display: none;
   z-index: 1;
-  height: 300px;
+  min-height: 300px;
+  max-height: max-content;
+
 }
 
 .offcanvas-collapse.open {
@@ -246,6 +248,8 @@ strong {
   background: #32bee9;
   color: #fff;
   height: 60vh;
+  display: flex;
+  align-items: center;
 }
 .items_blue p {
   margin-bottom: 0;
@@ -271,7 +275,8 @@ strong {
   margin-bottom: 0;
 }
 .md-abrodad {
-  height: 100vh;
+  /*  height: 100vh;*/
+  height: 75vh;
   background-repeat: no-repeat !important;
   background-size: 100% !important;
 }
@@ -325,7 +330,7 @@ strong {
   color: #32bee9;
   font-family: futura-bold;
   font-size: 2rem;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 .titles-service h5 {
   color: #32bee9;
@@ -666,3 +671,54 @@ body, html{
     padding: 0;
   }
 }
+
+/*custom 11/08*/
+.content-service-btn {
+  width: 70%;
+  margin-top: 6em;
+}
+.mask-md {
+  height: 100%;
+  width: 100%;
+  background: #0006;
+}
+/*cambio en sla */
+
+.level-custom_sla3 {
+  width: 200px!important;
+  top: 95px!important;
+  height: max-content;
+}
+.level-custom_sla3-1 {
+  width: 250px;
+  top: -150%;
+}
+.level-custom_sla4 {
+  width: 250px;
+  top: 95px;
+  height: max-content;
+}
+.level-custom_sla4-1 {
+  width: 250px;
+  top: -180%;
+}
+.level-item_two.level-custom_sla5 {
+  width: 250px;
+  bottom: -60px;
+}
+.level-custom_sla7-1 {
+  width: 300px;
+  top: -145%;
+}
+.navbar-nav {
+  width: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.nav-menu li a {
+  color: #fff;
+}
+
+
+

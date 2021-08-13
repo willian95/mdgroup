@@ -63,8 +63,8 @@
       </div>
    
       <div class="navbar-collapse offcanvas-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="dropdown nav-item">
+        <!-- <ul class="navbar-nav ml-auto">
+         <li class="dropdown nav-item">
             <a aria-expanded="false" aria-haspopup="true" class="nav-link" data-toggle="dropdown" href="#"
               role="button">
               PAYER PORTAL
@@ -83,6 +83,42 @@
             <a class="nav-link noline" href="tel:568 564 9876">Call now: 568 564 9876</a>
           </li>
         </ul>
+        <ul>
+        
+        
+        </ul>-->
+        <div class="navbar-nav">
+        <div class="row w-100 nav-menu">
+          <div class="col-md-6 col-sm-12">
+          <li><a href="#mix-of-services">The Perfect Mix of Services</a></li>
+       
+       <li> <a href="#summary-of-services"> A Brief Summary of Services</a></li>
+      <li>  <a href="#assistance-services"> 365/24/7 Assistance Services</a></li>
+        <li><a href="#better-assistance"> Better Medical Assistance</a></li>
+       <li> <a href="#technical">Technical & Personal Travel Assitance</a></li>
+       <li>   <a href="#extraordinary-assistance">Extraordinary Assistance Services</a></li>
+       <li>    <a href="#telemedicine"> Telemedicine: The Future is Here</a></li>
+       <li>    <a href="#fraud"> Fraud Control and Auditing</a></li>
+       <li><a href="#worldwide"> Worldwide Network Access</a></li>
+       <li>  <a href="#management"> Claims Management & Repricing</a></li>
+          </div>
+          <div class="col-md-6 col-sm-12">
+          <li><a href="#funding">Funding Program, Recoveries, </a></li>
+       <li> <a href="#funding"> Subrogation</a></li>
+       <li>    <a href="#speed"> Service at the Speed of Discount</a></li>
+       <li>      <a href="#information"> Information Access</a></li>
+       <li> <a href="#satisfaction">Satisfaction and Quality Assurance</a></li>
+       <li>  <a href="#levels">Service Levels</a></li>
+       <li>  <a href="#cybersecurity">Cybersecurity
+      </a></li>
+      <li> <a href="#about"> About Mdabroad</a></li>
+      <li>  <a href="#"> Top Management Bios</a></li>
+
+          </div>
+
+
+        </div>
+        </div>
       </div>
     </nav>
 
@@ -124,7 +160,7 @@
         data-aos-duration="2000">
         <img src="{{ url('assets/img/mini/1Recurso 2.png') }}" alt="">
           <div class="main-content_txt">
-            <p>NTEGRATION</p>
+            <p>INTEGRATION</p>
             <span>of our services</span>
           </div>
         </div>
@@ -150,7 +186,7 @@
     </div>
   </section>
 
-  <section class="main-background" style="background:url('assets/img/background.png')">
+  <section class="main-background" style="background:url('assets/img/background.png')" id="mix-of-services">
     <div class="row">
       <div class="col-md-6" data-aos="fade-up" >
         <p>
@@ -166,7 +202,7 @@
       </div>
     </div>
   </section>
-  <section class="main-background_blue">
+  <section class="main-background_blue" id="summary-of-services">
     <div class="container">
       <div class="row " data-aos="fade-up" data-aos-duration="2000">
         <div class="col-md-5"  >
@@ -212,7 +248,7 @@
     </div>
 
   </section>
-  <section class="md-abrodad" style="background:url('assets/img/banner.png')">
+  <section class="md-abrodad" style="background:url('assets/img/banner.png')" id="md">
     <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
     <img src="{{ url('assets/img/logored.png') }}" alt="">
       <strong>WE PROMISE TO MAKE
@@ -237,7 +273,7 @@
         data-aos-duration="2000">
         <img src="{{ url('assets/img/mini/ddsRecurso 8.png') }}" alt="">
           <div class="main-content_txt">
-            <p>tRAVEL <br>
+            <p>TRAVEL <br>
               ASSISTANCE</p>
           </div>
         </div>
@@ -263,7 +299,7 @@
     </div>
   </section>
 
-  <section class="main-services">
+  <section class="main-services" id="assistance-services">
     <div class="main-services_item">
       <div class="titles-service mt-0 " data-aos="fade-right">
         <h2>365/24/7 ASSISTANCE SERVICES</h2>
@@ -284,7 +320,7 @@
             traveling abroad. <br><br>
             The ability to respond to these risks can make all the
             difference between reasonable and customary
-            charges and grossly inflated charges. md abroad
+            charges and grossly inflated charges. MDabroad
             offers comprehensive assistance Services which
             ensure immediate access to medical guidance and
             care. <br><br>
@@ -296,17 +332,17 @@
             of the world. Our integrated packages include travel
             assistance Services before, during, and upon return.
             We extend travel preparation Services, so they are
-            informed of potential health risks prior to travel
+            informed of potential health risks prior to travel.
           </p>
         </div>
       </div>
     </div>
-    <div class="main-services_item mt-5">
-      <div class="titles-service "  data-aos="fade-right">
-        <h2>BETTER MEDICAL ASSISTANCE</h2>
+    <div class="main-services_item mt-5" id="better-assistance">
+      <div class="titles-service"  data-aos="fade-right">
+        <h2 class="ml-5">BETTER MEDICAL ASSISTANCE</h2>
       </div>
       <div class="main-services_content">
-        <div class="ml-4">
+        <div class="ml-5">
           <p>
             Coordination of outpatient and/or inpatient care
             for any medical condition: <br><br>
@@ -314,11 +350,11 @@
             · House Calls.<br>
             · Medical Evacuations & Repatriations. <br>
             · Telemedicine.<br>
-            · Prescribe Medication<br>
+            · Prescribe medication - Discount Program for our clients members.<br>
             Discount Program for our client’s members.<br><br>
-            White-glove approach to additional services:<br><br>
+            <strong>White-glove approach to additional services:</strong><br><br>
             · Accompanying person in case of prolonged <br>
-            hospitalization - Air Travel and/or Lodging <br>
+             <b style="color: transparent;">· </b> hospitalization - Air Travel and/or Lodging <br>
             · Cases arising from the practice of sports <br>
             · Coordination of medical care for pre-existing
             medical conditions <br>
@@ -339,7 +375,7 @@
 
       </div>
     </div>
-    <div class="main-services_item">
+    <div class="main-services_item" id="telemedicine">
       <div class="titles-service "  data-aos="fade-right">
         <h2>TELEMEDICINE: THE FUTURE IS HERE</h2>
       </div>
@@ -372,7 +408,7 @@
         </div>
       </div>
     </div>
-    <div class="main-services_item mt-5">
+    <div class="main-services_item mt-5" id="extraordinary-assistance">
       <div class="titles-service "  data-aos="fade-right">
         <h2>EXTRAORDINARY ASSISTANCE SERVICES</h2>
       </div>
@@ -408,9 +444,9 @@
 
       </div>
     </div>
-    <div class="main-services_item">
+    <div class="main-services_item" id="technical">
       <div class="titles-service "  data-aos="fade-right">
-        <h2>TECHNICAL & PERSONAL TRAVEL ASSITANCE</h2>
+        <h2>TECHNICAL & PERSONAL TRAVEL ASSISTANCE</h2>
       </div>
       <div class="main-services_content">
         <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (5).png') }}" alt=""></div>
@@ -418,24 +454,25 @@
           <p>
             Tracking of lost luggage and concierge services
             Cash advance <br><br>
-            Assistance in case of lost and/or stolen travel
-            documentation
-            Reservation of air tickets and hotels
-            Transmission of urgent messages to family in case of
-            medical or legal emergencies.
+            • Tracking of lost luggage and concierge services.<br>
+            • Cash advance.<br>
+            • Assistance in case of lost and/or stolen travel documentation.<br>
+            • Reservation of air tickets and hotels.<br>
+            • Transmission of urgent messages to family in case of medical<br>
+            <b style="color: transparent;">• </b>or legal emergencies.
 
           </p>
           <p class="txt-strong"> LEGAL REFERAL</p>
 
-          <p>Access to legal counsel whenever the traveler is being
-            pressed with charges or was involved in an accident.
-            This service also provides advocacy with the traveler’s
-            consular authorities locall. y</p>
+          <p>• Access to legal counsel whenever the traveler is being<br>
+            <b style="color: transparent;">• </b>pressed with charges or was involved in an accident.<br>
+            • This service also provides advocacy with the traveler’s<br>
+            <b style="color: transparent;">• </b>consular authorities locally.</p>
           <p class="txt-strong"> SPECIAL SERVICES</p>
-          <p> Critical care
-            Management of trauma cases, deploying immediate
-            resources, coordination of specialists and immediate
-            response teams.</p>
+          <p> • Critical care.<br>
+              • Management of trauma cases, deploying<br>
+              <b style="color: transparent;">• </b>immediate resources, coordination of<br>
+              <b style="color: transparent;">• </b>specialists and immediate response teams.</p>
         </div>
       </div>
     </div>
@@ -455,7 +492,7 @@
             worldwide, we pay in local currency through our
             own staff, avoiding manipulation of pharmacy and
             consultation prices.<br><br>
-            Proactive cost containment in US hospitals.
+            <strong>Proactive cost containment in US hospitals.</strong><br>
             • We deploy a network of hospitalists who manage
             care within the hospital setting on a proactive basis,
             as opposed to traditional case management and
@@ -468,32 +505,31 @@
 
       </div>
     </div>
-    <div class="main-services_item main-services_item-edit">
+    <div class="main-services_item main-services_item-edit" id="fraud">
       <div class="titles-service "  data-aos="fade-right">
         <h2>FRAUD CONTROL</h2>
       </div>
       <div class="main-services_content">
         <div data-aos="fade-right" data-aos-duration="1000">  <img src="{{ url('assets/img/service/services (4).png') }}" alt=""></div>
         <div class="ml-4 center">
-          <p class="txt-strong"> ORWARD VISION COST CONTAINMENT
-            FRAUD CONTROL AND AUDITINGL</p>
+          <p class="txt-strong">FORWARD VISION COST CONTAINMENT FRAUD
+            CONTROL AND AUDITING
+            </p>
           <p>
-            Using local resources worldwide, we pay in
-            local currency through our own staff, avoiding
-            manipulation of pharmacy and consultation prices.
-
+          Using local resources worldwide, we pay in local currency through our
+          own staff, avoiding manipulation of pharmacy and consultation prices.
           </p>
 
 
         </div>
       </div>
     </div>
-    <div class="main-services_item  main-services_item-edit mt-5">
+    <div class="main-services_item  main-services_item-edit mt-5" id="worldwide">
       <div class="titles-service "  data-aos="fade-right">
-        <h2>WORLDWIDE NETWORK ACCESS</h2>
+        <h2 class="ml-5">WORLDWIDE NETWORK ACCESS</h2>
       </div>
       <div class="main-services_content">
-        <div class="ml-4">
+        <div class="ml-5">
           <p>
             <strong>MDabroad </strong> complements the in-house provider
             network administration areas of insurance companies
@@ -512,7 +548,7 @@
             <strong>MDabroad</strong> is the most
             reliable and objective healthcare provider network
             for the management and administration of foreign
-            patients in many markets in the global arena
+            patients in many markets in the global arena.
           </p>
         </div>
         <div  data-aos="fade-left" data-aos-duration="1000">
@@ -521,12 +557,13 @@
 
       </div>
     </div>
-    <div class="main-services_item ">
+    <div class="main-services_item" id="management">
       <div class="titles-service "  data-aos="fade-right">
         <h2>CLAIMS MANAGEMENT & REPRICING</h2>
       </div>
       <div class="main-services_content">
-        <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (1).png') }}" alt="">></div>
+
+        <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (1).png') }}" alt=""></div>
         <div class="ml-4 center">
           <p>
             <strong> MDabroad</strong> offers payers meticulous case
@@ -541,8 +578,8 @@
             Our comprehensive claims process is supported by
             proprietary software platform that tracks the specific
             processes and needs for each Client.<br><br>
-            Other Services for claims management include the
-            following:<br><br>
+            <strong> Other Services for claims management include the
+            following:</strong><br><br>
             · Adjudication on our system or our clients’ system<br>
             · Proprietary software platform<br>
             · Outsourcing solutions for TPAs<br>
@@ -556,13 +593,13 @@
         </div>
       </div>
     </div>
-    <div class="main-services_item mt-5">
+    <div class="main-services_item mt-5" id="funding">
       <div class="titles-service "  data-aos="fade-right">
-        <h2>FUNDING PROGRAM , RECOVERIES,
+        <h2 class="ml-5">FUNDING PROGRAM , RECOVERIES,
           SUBROGATION</h2>
       </div>
       <div class="main-services_content">
-        <div class="ml-4">
+        <div class="ml-5">
           <p>
             <strong>MDabroad</strong> claims Funding (MDCF) is our unique
             funding program which is designed to address
@@ -602,7 +639,7 @@
 
       </div>
     </div>
-    <div class="main-services_item  h90">
+    <div class="main-services_item  h90" id="speed">
       <div class="titles-service "  data-aos="fade-right">
         <h2>SERVICE AT THE SPEED OF DISCOUNT</h2>
       </div>
@@ -617,14 +654,14 @@
             we optimize the discounts for the payer and the
             revenue cycle for providers.
           </p>
-          <div class="text-center">
+          <div class="content-service-btn text-center">
             <span>Want ot know more?</span><br>
             <a class="btn" href="#">Click here</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="main-services_item mt-5 h90 " >
+    <div class="main-services_item mt-5 h90 " id="information">
       <div class="titles-service "  data-aos="fade-right">
         <h2>ACCESS YOUR INFORMATION ANYTIME, <br>
           ANYWHERE , ANY PLATFORM</h2>
@@ -648,7 +685,7 @@
 
       </div>
     </div>
-    <div class="main-services_item mt-5">
+    <div class="main-services_item mt-5" id="satisfaction">
       <div class="titles-service "  data-aos="fade-right">
         <h2>FOCUS ON THE PERSON: CUSTOMER <br>
           SATISFACTION & QUALITY ASSURANCE</h2>
@@ -684,75 +721,81 @@
     </div>
   </section>
 
-  <section class="services- mt-5">
+  <section class="services- mt-5" id="levels">
     <div class="titles-service mt-0">
       <h2>SERVICE LEVELS</h2>
     </div>
     <div class="container services-level" data-aos="zoom-in">
       <div class="level-item">
         <div class="level-item_one">
-          <p><strong>MDabroad</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi
-            possimus qui modi nulla labo </p>
+          <p><strong>95% of incoming calls must be answered within 20 seconds</strong></p>
         </div>
         <div class="level-item_center">
           <p>sla <br> 1 </p>
         </div>
         <div class="level-item_two">
-          <p>100%</p>
+          <p> < 20 seconds </p>
         </div>
       </div>
       <div class="level-item">
         <div class="level-item_one">
-          <p><strong>MDabroad</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi
-            possimus qui modi nulla labo </p>
+          <p><strong>the abandon rate(%) will be measured based on abandoned calls after 20 seconds</strong></p>
         </div>
         <div class="level-item_center">
           <p>sla <br> 2 </p>
         </div>
         <div class="level-item_two">
-          <p>100%</p>
+          <p> < 5%</p>
         </div>
       </div>
       <div class="level-item">
-        <div class="level-item_one">
-          <p><strong>MDabroad</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi
-            possimus qui modi nulla labo </p>
+        <div class="level-item_one level-custom_sla3-1">
+          <p><strong>100% of the calls must be recorded and made avaible to the client.
+           The includes both, calls held with "Insurer" clients and
+           those held with Service Providers for the purpose of service 
+           coordination</strong></p>
         </div>
         <div class="level-item_center">
           <p>sla <br> 3 </p>
         </div>
-        <div class="level-item_two">
-          <p>100%</p>
+        <div class="level-item_two level-custom_sla3">
+          <p>100% of the calls must be available ad stored in the times established the local regulations</p>
         </div>
       </div>
       <div class="level-item">
-        <div class="level-item_one">
-          <p><strong>MDabroad</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi
-            possimus qui modi nulla labo </p>
+        <div class="level-item_one level-custom_sla4-1">
+          <p><strong>Calls will be made available to the "Insurer" for the purpose of quality assurance.
+            In the event of a request, the "Insurer" must inform the name name and surname of the insured, their Policy
+            number, and date & time of the call based on the information provided by the client.
+          </strong></p>
         </div>
         <div class="level-item_center">
           <p>sla <br> 4 </p>
         </div>
-        <div class="level-item_two">
-          <p>100%</p>
+        <div class="level-item_two level-custom_sla4">
+          <p>100% of calls must be available within 48 hours after being requested by the "Insurer" for quality assurance
+            of due to a customer claim. In the case of potential litigation, the calls must be available within 24 hours
+          </p>
         </div>
       </div>
       <div class="level-item">
         <div class="level-item_one">
-          <p><strong>MDabroad</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi
-            possimus qui modi nulla labo </p>
+          <p><strong>MDAbroad will respond (through the corresponding method) 
+            to reimbursement cases in less than 7 working days</strong></p>
         </div>
         <div class="level-item_center">
           <p>sla <br> 5 </p>
         </div>
-        <div class="level-item_two">
-          <p>100%</p>
+        <div class="level-item_two level-custom_sla5">
+          <p>
+            Response < 7 days of receipt of full documentation
+          </p>
         </div>
       </div>
       <div class="level-item">
         <div class="level-item_one">
-          <p><strong>MDabroad</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi
-            possimus qui modi nulla labo </p>
+          <p><strong>MDAbroad will update the policy holder ever 30 days on 
+            Bill Claims cases that might exist</strong></p>
         </div>
         <div class="level-item_center">
           <p>sla <br> 6 </p>
@@ -762,9 +805,12 @@
         </div>
       </div>
       <div class="level-item">
-        <div class="level-item_one">
-          <p><strong>MDabroad</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi
-            possimus qui modi nulla labo </p>
+        <div class="level-item_one level-custom_sla7-1">
+          <p><strong>MDAbroad shall notify the "Insurer" of any judicial and/or
+            extrajudicial and/or administrative claim filed by a customer in
+            relation to the service. Such notifications must be made within a
+            maximum of forty-eight (48) business hours from the time that
+            MDAbroad becomes aware of the existence of the claim</strong></p>
         </div>
         <div class="level-item_center">
           <p>sla <br> 7 </p>
@@ -777,23 +823,25 @@
     </div>
   </section>
 
-  <section class="md-abrodad main-cyber" style="background:url('assets/img/banner.png')">
+  <section class="md-abrodad main-cyber" style="background:url('assets/img/service/cybersecurity.jpg');background-position: center;" id="cybersecurity">
+  <div class="mask-md">
     <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
 
-      <strong>CYBERSECURITY: </strong>
-      <strong>AHEAD OF THE HERE AND NOW
-      </strong>
-      <p>Personal Health Information Confidentiality
-        ALL our personnel complies with the strictest industry requirements,
-        namely HIPAA (Health Insurance Portability and Accountability Act) .
+        <strong>CYBERSECURITY: </strong>
+        <strong>AHEAD OF THE HERE AND NOW
+        </strong>
+        <p>Personal Health Information Confidentiality
+          ALL our personnel complies with the strictest industry requirements,
+          namely HIPAA (Health Insurance Portability and Accountability Act) .
 
-        and GDPR (General Data Protection Regulation), regarding the safeguard
-        of the patient’s confidential information. We invest significant resources in
-        creating, maintaining and updating all our software and processe</p>
+          and GDPR (General Data Protection Regulation), regarding the safeguard
+          of the patient’s confidential information. We invest significant resources in
+          creating, maintaining and updating all our software and process.</p>
+      </div>
     </div>
   </section>
 
-  <section class="main-about " >
+  <section class="main-about" id="about">
     <div class="container" data-aos="fade-up" data-aos-duration="2000">
       <h2><strong>ABOUT US</strong></h2>
       <div class="row">
@@ -887,7 +935,7 @@
             A central hub that allows for reliable domestic and
             cross-border financial transactions, convenient
             jurisdiction for dispute resolution, and convenient access
-            to the offices of major insurers
+            to the offices of major insurers.
             <br><br>
             Our presence in Buenos Aires positions us in close
             proximity to the headquarters of many large travel
@@ -912,16 +960,16 @@
   <section class="md-abrodad advaced" style="background:url('assets/img/other/services (2).png')">
     <div class="md-abrodad_item container" data-aos="fade-up" data-aos-duration="2000">
 
-      <strong>ADVACED PAYMENT </strong>
+      <strong>ADVANCED PAYMENT </strong>
       <h2>AND CLAIMS FUNDING</h2>
 
     </div>
   </section>
 
-  <section class="main-services located mb-5">
+  <section class="main-services located mb-5" id="like-acetaminofen">
     <div class="main-services_item mt-5 main-service_modif">
       <div class="titles-service " data-aos="fade-right">
-        <h2>LLIKE ACETAMINOPHEN FOR YOUR CFEO</h2>
+        <h2>LIKE ACETAMINOPHEN FOR YOUR CFO</h2>
       </div>
       <div class="main-services_content">
         <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/other/services (6).png') }}" alt=""></div>
@@ -948,7 +996,7 @@
       <div class="main-services_content">
         <div class="ml-4 center">
           <div class="titles-service " data-aos="fade-right">
-            <h5>WE HAVE ESTEABLISHES AN <br>
+            <h5>WE HAVE ESTABLISHES AN <br>
               INDUSTRY-FIRST INTERNATIONAL <br>
               CLAIMS ADVANCED FUND TO SATISFY <br>
               THE INTEREST OF QUICKLY <br>
@@ -974,7 +1022,7 @@
         <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (4).png') }}" alt=""></div>
         <div class="ml-4 center">
           <div class="titles-service " data-aos="fade-right">
-            <h5>WE HAVE ESTEABLISHES AN <br>
+            <h5>WE HAVE ESTABLISHES AN <br>
               INDUSTRY-FIRST INTERNATIONAL <br>
               CLAIMS ADVANCED FUND TO SATISFY <br>
               THE INTEREST OF QUICKLY <br>
@@ -994,7 +1042,7 @@
 
       </div>
     </div>
-    <div class="main-services_item mt-5  main-service_modif">
+    <div class="main-services_item mt-5  main-service_modif" id="legibility">
       <div class="main-services_content">
         <div class="ml-4 center">
           <div class="titles-service " data-aos="fade-right">
@@ -1004,7 +1052,7 @@
           <p>
             Providers use our platform to supply payers with specific
             information necessary to issue a payment guarantee
-            and communicate relevant policy information <br><br>
+            and communicate relevant policy information. <br><br>
             Our tools allow providers to communicate specific
             information to appropriate ICD and CPT codes
             which allows insurers to more easily identify
@@ -1018,13 +1066,13 @@
         <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (3).png') }}" alt=""></div>
       </div>
     </div>
-    <div class="main-services_item mt-5  main-service_modif">
+    <div class="main-services_item mt-5  main-service_modif" id="case-status">
 
       <div class="main-services_content">
         <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (1).png') }}" alt=""></div>
         <div class="ml-4 center">
           <div class="titles-service " data-aos="fade-right" >
-            <h5>ASE STATUS, COMMUNICATIONS LOG <br>
+            <h5>CASE STATUS, COMMUNICATIONS LOG <br>
               AND AUDIT TRAIL</h5>
           </div>
           <p>
@@ -1039,11 +1087,11 @@
 
       </div>
     </div>
-    <div class="main-services_item mt-5  main-service_modif">
+    <div class="main-services_item mt-5  main-service_modif" id="aggregation">
       <div class="main-services_content">
         <div class="ml-4 center">
           <div class="titles-service" data-aos="fade-right">
-            <h5>AGGREGTION, THE POWER OF NUMBERS</h5>
+            <h5>AGGREGATION, THE POWER OF NUMBERS</h5>
           </div>
           <p>
             Choosing MDabroad means that you are choosing
@@ -1061,7 +1109,7 @@
           <p>Our suite of applications and IT products enables
             hospitals and physicians to provide remote
             consultation, SMS and WhatsApp notifications and
-            communication with patients and their families</p>
+            communication with patients and their families.</p>
         </div>
         <div data-aos="fade-right"  data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (8).png') }}" alt=""></div>
       </div>
@@ -1075,7 +1123,7 @@
         <div class="col-md-9">
           <div class="slider-banner items_blue" data-aos="zoom-in" data-aos-duration="2500">
             <div>
-              <h2 class="s"><strong>NLIMITED 24/7 SUPPORT, <br>
+              <h2 class="s"><strong>UNLIMITED 24/7 SUPPORT, <br>
                   TRAINING AND SERVICE</strong></h2> <br>
               <p>Our agents are available at all hours to perform any or
                 all services involved with your management of
@@ -1101,39 +1149,39 @@
   <footer>
     <div class="row">
       <div class="col-md-4 footer_item">
-       <p> <a href="">The Perfect Mix of Services</a></p>
-       <p> <a href=""> A Brief Summary of Services</a></p>
-      <p>  <a href=""> 365/24/7 Assistance Services</a></p>
-        <p><a href=""> Better Medical Assistance</a></p>
-       <p> <a href="">Technical & Personal Travel Assitance</a></p>
-     <p>   <a href="">Extraordinary Assistance Services</a></p>
-    <p>    <a href=""> Telemedicine: The Future is Here</a></p>
-    <p>    <a href=""> Fraud Control and Auditing</a></p>
-       <p> <a href=""> Worldwide Network Access</a></p>
-     <p>   <a href=""> Claims Management & Repricing</a></p>
+       <p> <a href="#mix-of-services">The Perfect Mix of Services</a></p>
+       <p> <a href="#summary-of-services"> A Brief Summary of Services</a></p>
+      <p>  <a href="#assistance-services"> 365/24/7 Assistance Services</a></p>
+        <p><a href="#better-assistance"> Better Medical Assistance</a></p>
+       <p> <a href="#technical">Technical & Personal Travel Assitance</a></p>
+     <p>   <a href="#extraordinary-assistance">Extraordinary Assistance Services</a></p>
+    <p>    <a href="#telemedicine"> Telemedicine: The Future is Here</a></p>
+    <p>    <a href="#fraud"> Fraud Control and Auditing</a></p>
+       <p> <a href="#worldwide"> Worldwide Network Access</a></p>
+     <p>   <a href="#management"> Claims Management & Repricing</a></p>
       </div>
       <div class="col-md-4 footer_item">
-        <p><a href="">Funding Program, Recoveries, </a></p>
-       <p> <a href=""> Subrogation</a></p>
-    <p>    <a href=""> Service at the Speed of Discount</a></p>
-  <p>      <a href=""> Information Access</a></p>
-       <p> <a href="">Satisfaction and Quality Assurance</a></p>
-      <p>  <a href="">Service Levels</a></p>
-      <p>  <a href="">Cybersecurity
+        <p><a href="#funding">Funding Program, Recoveries, </a></p>
+       <p> <a href="#funding"> Subrogation</a></p>
+    <p>    <a href="#speed"> Service at the Speed of Discount</a></p>
+  <p>      <a href="#information"> Information Access</a></p>
+       <p> <a href="#satisfaction">Satisfaction and Quality Assurance</a></p>
+      <p>  <a href="#levels">Service Levels</a></p>
+      <p>  <a href="#cybersecurity">Cybersecurity
       </a></p>
-    <p>  <a href=""> FAbout Mdabroad</a></p>
-     <p>   <a href=""> Top Management Bios</a></p>
+    <p>  <a href="#about"> About Mdabroad</a></p>
+     <p>   <a href="#"> Top Management Bios</a></p>
       </div>
       <div class="col-md-4 footer_item">
-      <p>  <a href="">Read more </a></p>
-      <p>  <a href=""> Secure Platform for International Claims</a></p>
-        <p><a href=""> Management</a></p>
-       <p> <a href=""> Case Status, Communications Log</a></p>
-<p>        <a href="">Elegibility : Verification of Benefits,</a></p>
-       <p> <a href="">GOPs, Extensions</a></p>
- <p>       <a href="">Like Acetaminofen for your CEO
+      <p>  <a href="#">Read more </a></p>
+      <p>  <a href="#management"> Secure Platform for International Claims</a></p>
+        <p><a href="#management"> Management</a></p>
+       <p> <a href="#case-status"> Case Status, Communications Log</a></p>
+<p>        <a href="#legibility">Legibility : Verification of Benefits,</a></p>
+       <p> <a href="#legibility">GOPs, Extensions</a></p>
+ <p>       <a href="#like-acetaminofen">Like Acetaminofen for your CFO
 </a></p>
-     <p>   <a href=""> Aggreagtion: the Power of Numbers
+     <p>   <a href="#aggregation"> Aggregation: the Power of Numbers
     </a></p>
      
       </div>
