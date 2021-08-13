@@ -90,29 +90,34 @@
         <div class="navbar-nav">
         <div class="row w-100 nav-menu">
           <div class="col-md-6 col-sm-12">
-          <li><a href="#mix-of-services">The Perfect Mix of Services</a></li>
-       
-       <li> <a href="#summary-of-services"> A Brief Summary of Services</a></li>
-      <li>  <a href="#assistance-services"> 365/24/7 Assistance Services</a></li>
-        <li><a href="#better-assistance"> Better Medical Assistance</a></li>
-       <li> <a href="#technical">Technical & Personal Travel Assitance</a></li>
-       <li>   <a href="#extraordinary-assistance">Extraordinary Assistance Services</a></li>
-       <li>    <a href="#telemedicine"> Telemedicine: The Future is Here</a></li>
-       <li>    <a href="#fraud"> Fraud Control and Auditing</a></li>
-       <li><a href="#worldwide"> Worldwide Network Access</a></li>
-       <li>  <a href="#management"> Claims Management & Repricing</a></li>
+              <li><a href="#mix-of-services">The Perfect Mix of Services</a></li>
+        
+              <li> <a href="#summary-of-services"> A Brief Summary of Services</a></li>
+              <li><a href="#assistance-services"> 365/24/7 Assistance Services</a></li>
+              <li><a href="#better-assistance"> Better Medical Assistance</a></li>
+              <li><a href="#technical">Technical & Personal Travel Assitance</a></li>
+              <li><a href="#extraordinary-assistance">Extraordinary Assistance Services</a></li>
+              <li><a href="#telemedicine"> Telemedicine: The Future is Here</a></li>
+              <li><a href="#fraud"> Fraud Control and Auditing</a></li>
+              <li><a href="#worldwide"> Worldwide Network Access</a></li>
+              <li><a href="#management"> Claims Management & Repricing</a></li>
+              <li><a href="#funding">Funding Program, Recoveries,Subrogation </a></li>
+              <li><a href="#speed">Service at the Speed of Discount</a></li>
+              <li><a href="#information">Information Access</a></li>
           </div>
-          <div class="col-md-6 col-sm-12">
-          <li><a href="#funding">Funding Program, Recoveries, </a></li>
-       <li> <a href="#funding"> Subrogation</a></li>
-       <li>    <a href="#speed"> Service at the Speed of Discount</a></li>
-       <li>      <a href="#information"> Information Access</a></li>
-       <li> <a href="#satisfaction">Satisfaction and Quality Assurance</a></li>
-       <li>  <a href="#levels">Service Levels</a></li>
-       <li>  <a href="#cybersecurity">Cybersecurity
-      </a></li>
-      <li> <a href="#about"> About Mdabroad</a></li>
-      <li>  <a href="#"> Top Management Bios</a></li>
+          <div class="col-md-6 col-sm-12">        
+              <li><a href="#levels">Service Levels</a></li>
+              <li><a href="#cybersecurity">Cybersecurity</a></li>
+              <li><a href="#about"> About Mdabroad</a></li>
+              <li> <a href="#"> Top Management Bios</a></li>
+              <li><a href="#management">Secure Platform for International Claims</a></li>
+              <li><a href="#management">Management</a></li>
+              <li><a href="#case-status">Case Status, Communications Log and Audit Trail</a></li>
+              <li><a href="#legibility">Elegibility: Verification of Benefits, GOPs, Extensions</a></li>
+              <li><a href="#like-acetaminofen">Like Acetaminofen for your CEO</a></li>
+              <li><a href="#aggregation">Aggregation: the Power of Numbers</a></li>
+              <li><a href="#aggregation">While label mobile applications</a></li>
+              <li><a href="#unlimited">Unlimited 24/7 support</a></li>
 
           </div>
 
@@ -1114,7 +1119,7 @@
     </div>
   </section>
 
-  <section class="md-abrodad bg-section-slider" style="background:url('assets/img/other/bg.png')">
+  <section class="md-abrodad bg-section-slider" style="background:url('assets/img/other/bg.png')" id="unlimited">
     <div class="md-abrodad_item container">
 
       <div class="row">
