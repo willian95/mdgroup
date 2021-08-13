@@ -1049,7 +1049,7 @@
       <div class="main-services_content">
         <div class="ml-4 center">
           <div class="titles-service " data-aos="fade-right">
-            <h5>LEGIBILITY : VERIFICATION OF BENEFITS, <br>
+            <h5>ELEGIBILITY : VERIFICATION OF BENEFITS, <br>
               GOPS, EXTENSIONS</h5>
           </div>
           <p>
@@ -1119,8 +1119,8 @@
     </div>
   </section>
 
-  <section class="md-abrodad bg-section-slider" style="background:url('assets/img/other/bg.png')" id="unlimited">
-    <div class="md-abrodad_item container">
+  <section class="md-abrodad bg-section-slider" style="background:url('assets/img/other/bg.png')">
+    <div class="md-abrodad_item container" id="unlimited">
 
       <div class="row">
         <div class="col-md-9">
@@ -1180,7 +1180,7 @@
       <p>  <a href="#management"> Secure Platform for International Claims</a></p>
         <p><a href="#management"> Management</a></p>
        <p> <a href="#case-status"> Case Status, Communications Log</a></p>
-<p>        <a href="#legibility">Legibility : Verification of Benefits,</a></p>
+<p>        <a href="#legibility">Elegibility : Verification of Benefits,</a></p>
        <p> <a href="#legibility">GOPs, Extensions</a></p>
  <p>       <a href="#like-acetaminofen">Like Acetaminofen for your CFO
 </a></p>
