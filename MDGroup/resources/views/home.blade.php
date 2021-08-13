@@ -1022,20 +1022,18 @@
         <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (4).png') }}" alt=""></div>
         <div class="ml-4 center">
           <div class="titles-service " data-aos="fade-right">
-            <h5>WE HAVE ESTABLISHES AN <br>
-              INDUSTRY-FIRST INTERNATIONAL <br>
-              CLAIMS ADVANCED FUND TO SATISFY <br>
-              THE INTEREST OF QUICKLY <br>
-              RESOLVING CLAIMS.</h5>
+            <h5>SECURE PLATFORM FOR INTERNATIONAL<br>
+                CLAIMS MANAGEMENT</h5>
           </div>
           <p>
-            Healthcare providers can benefit from our Claims
-            Advance Fund that advances payments on claims.
-            Healthcare providers enjoy accelerated cash flow,
-            reduced accounts receivable, and diminished
-            delinquent accounts. <br><br>
-            Providers can enjoy a reduction of medical loss and
-            expenses associated with claims resolution.
+            <strong>It's all about process.</strong><br>
+            MDAbroad sees the settlement and collection of invoices as the culmination of a well-performed
+            process that aims at bridging compliance requirements.<br>
+            The following functionality may be achieved through md abroad.<br><br>
+            <strong>Universal and Compliant Platform</strong><br>
+            Getting it right from the start. Our compliant platform ensures
+            that PHI and sensitive financial information is communicated securely and in compliance with
+            regulatory standards.
           </p>
 
         </div>
