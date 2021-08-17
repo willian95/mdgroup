@@ -347,7 +347,7 @@
                         Our collaborative strategy lowers payer losses due
                         to inpatient and outpatient claims <br><br>
 
-                      <div class="ml-5">
+                      <div class="text-center">
                       <img class="atena" src="{{ url('assets/img/service/aetna.png') }}" alt="">
                       </div><br> <br>
 
@@ -379,7 +379,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-services_item">
+        <div class="main-services_item mt-5 pt-5">
             <!---<div class="titles-service mt-0 " data-aos="fade-right">
                 <h2>BEST-IN-CLASS COST CONTAINMENT <br> VIA STRATEGIC RELATIONSHIPS</h2>
             </div>--->
@@ -873,7 +873,7 @@
             </div>
             <div class="level-item">
                 <div class="level-item_one">
-                    <p><strong>the abandon rate(%) will be measured based on abandoned calls after 20 seconds</strong></p>
+                    <p><strong>The abandon rate (%) will be measured based on abandoned calls after 20 seconds</strong></p>
                 </div>
                 <div class="level-item_center">
                     <p>sla <br> 2 </p>
@@ -1051,32 +1051,39 @@
 
     </section>
 
-    <section class="main-management pt-5 mt-3" style="    height: 60vh;">
+    <section class="main-management pt-5 mt-3 position-relative" style="    height: 60vh;">
     <div class="titles-service mt-0">
       <h2>TOP MANAGEMENT BIOS</h2>
     </div>
         <div class="ml-4 center items-job">
             <div class="items-job-1">
-             <p><strong>Lorem</strong> ipsum</p>
+             <p><strong>Scott Rosen</strong> CEO</p>
+             <span><div class="line"></div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+            </div>
+            <div class="items-job-1">
+             <p><strong>Ralph Patiño</strong> CFO & COO</p>
              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Lorem</strong> ipsum</p>
+             <p><strong>Peter Cejas Esq</strong> Managing Dir. MDCCapital</p>
              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Lorem</strong> ipsum</p>
+             <p><strong>Cristina Valenzuela</strong> VP Operations</p>
              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Lorem</strong> ipsum</p>
+             <p><strong>Guillermo J. Castilba</strong> Sales Director</p>
              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Lorem</strong> ipsum</p>
+             <p><strong>Adrian</strong> Provider Network Manager</p>
              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
             </div>
-            
+            <div class="items-job-1">
+             <p><strong>Ing. Rafael</strong> IT adn Cybersecurity Director</p>
+             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+            </div>
         </div>
   </section>
 
@@ -1360,7 +1367,7 @@
         </div>
     </footer>
 
-<a class="ws" target="_blank" href="tel:5685649876">
+<a class="ws" target="_blank" href="https://api.whatsapp.com/send?phone=5685649876">
 <img id="iso" src="{{ url('assets/img/ws.png') }}">
 </a>
 
