@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDGROUP</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <!--- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 
+    <link rel="stylesheet" href="{{ url('assets/css/aos.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/slick.min.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/slick-theme.min.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/custom.css') }}">
 </head>
 
@@ -1372,11 +1377,14 @@
 </a>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+    <!---<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>-->
 
+    <script  src="{{ url('assets/js/jquery.min.js') }}"></script>
+    <script  src="{{ url('assets/js/slick.min.js') }}"></script>
     <script src="{{ url('assets/js/custom.js') }}"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script  src="{{ url('assets/js/aos.js') }}"></script>
+    <!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>-->
     <script>
         AOS.init();
     </script>
