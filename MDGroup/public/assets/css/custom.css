@@ -109,10 +109,10 @@ button:focus {
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-  width: 35px;
-  height: 6px;
+    width: 30px;
+    height: 8px;
   background-color: #32bee9;
-  border-radius: 3px;
+  border-radius: 5px;
   position: absolute;
   transition-property: transform;
   transition-duration: 0.15s;
@@ -137,6 +137,7 @@ button:focus {
   top: 6px;
   transition-duration: 0.275s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  margin-top: .2rem;
 }
 
 .hamburger--elastic .hamburger-inner::before {
@@ -179,23 +180,22 @@ button:focus {
   text-decoration: underline;
   color: #32bee9;
   font-family: "futura-medium";
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 .noline {
   text-decoration: none !important;
 }
 .redes {
-  position: fixed;
-  z-index: 1;
-  right: 1rem;
-  top: 50%;
+
 }
 .redes ul {
   display: block;
   list-style: none;
+  display: inline-flex;
 }
 .redes li {
-  margin-bottom: 0.5rem;
+
+  margin-left: 1rem;
 }
 .redes a {
   background: #32bee9;
@@ -209,10 +209,11 @@ button:focus {
   display: flex;
 }
 .main-content {
-  display: grid;
-  grid-auto-rows: 23rem;
-  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-  gap: 1.5rem;
+    display: grid;
+    grid-auto-rows: 23rem;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 1.5rem;
+    margin: 0 2rem;
 }
 .main-content img {
   width: 100%;
@@ -225,6 +226,7 @@ button:focus {
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-bottom: 0;
+  margin-top: .5rem;
 }
 .main-content_txt span {
   color: #32bee9;
@@ -322,7 +324,7 @@ strong {
 .main-services_content p {
     color: #000;
     max-width: 98%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .main-services_item span {
     color: #000000;
@@ -347,6 +349,7 @@ strong {
 .titles-service h5 {
   color: #32bee9;
   font-family: futura-bold;
+  font-size: 1.5rem;
 }
 .main-services_item {
   /*height: 110vh;*/
@@ -531,7 +534,7 @@ strong {
   padding: 2rem 0;
 }
 .located a {
-  color: #00000094;
+    color: #000000;
 }
 .main-service_modif img {
   height: 500px;
@@ -566,7 +569,14 @@ footer {
   font-family: futura-light;
   color: #fff;
   text-decoration: underline;
+  font-size: 1.5rem;
 }
+.footer_item p {
+    font-family: futura-light;
+    color: #fff;
+
+    font-size: 1.5rem;
+  }
 .footer_item p {
   margin-bottom: 0;
 }
@@ -576,6 +586,7 @@ footer {
 }
 .footer_end p {
   text-align: center;
+  font-size: 1.5rem;
 }
 .btn-xs {
   display: none !important;
@@ -782,12 +793,15 @@ body, html{
 
 .title-levesl{
     position: absolute;
-    top: 25%;
+    top: 16%;
     color: #32bee9;
     text-transform: uppercase;
     max-width: 15%;
     left: 50px;
     font-size: 1.5rem;
+}
+.ml-all{
+    margin: 0 2rem;
 }
 .title-levesl2{
     position: absolute;
@@ -804,26 +818,34 @@ body, html{
 }
 .items-job-1 span {
     display: none;
+    background: #fff;
 }
 .items-job-1:hover span{
     display: block;
 }
 
-.items-job-1:nth-child(4) span{
+.as span{
     display: block;
-}
 
+}
 .items-job-1 span{
     position: absolute;
-    right: 30%;
-    max-width: 26%;
-    border: 1px solid #32bee9;
-    padding: 2rem 2rem;
-    border-radius: 53px 0px 71px 0px;
-    top: 36%;
+    right: 22%;
+    max-width: 24%;
+    border: 3px solid #32bee9;
+    padding: 3rem 2rem;
+    border-radius: 100px 0px 100px 0px;
+    top: 27%;
+}
+.items-job-1:not(:hover){
+    display: block;
+}
+.items-job-1:nth-child(1) span{
+    display: block;
+
 }
 /*
-.items-job-1 span::before {
+.line-top::before {
     opacity: 0;
     position: absolute;
     content: "";
@@ -838,7 +860,13 @@ body, html{
 );
     bottom: 0;
     right: 60%;
-}
+
+    opacity: 1;
+    width: 267px;
+    height: 185px;
+}*/
+/*
+
 .items-job-1:hover span::before  {
     opacity: 1;
     width: 267px;
@@ -851,4 +879,47 @@ body, html{
 }
 .ws img{
     width: 60px;
+}
+.center-flex{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.position-img{
+    background-position: 0 -5rem!important;
+}
+
+.position-img-1{
+    object-position: -16rem -12rem!important;
+}
+.position-img-2{
+    object-position: -24rem 0rem!important;
+}
+.ml-4, .mx-4 {
+    margin-left: 0rem!important;
+}
+#technical {
+    height: auto;
+}
+.img-height{
+    height: 100%!important;
+}
+.position-img-3{
+    object-position: -40rem 0!important;
+}
+
+.ml-content{
+    margin-left: 1.5rem!important;
+}
+.redes-foter {
+    text-align: center;
+}
+.redes-foter a {
+    background: #ffffff;
+    color: #32bee9;
+
+}
+.h5_footer{
+    font-size: 1.5rem;
+    font-family: 'futura-medium';
 }

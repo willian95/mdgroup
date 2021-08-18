@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDGROUP</title>
-   <!--- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="{{ url('assets/css/aos.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/slick.min.css') }}">
@@ -33,6 +33,13 @@
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
+
+                <button class="navbar-toggler  border-0 hamburger hamburger--elastic " data-toggle="offcanvas" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+
             </div>
             <div class="navbar ml-auto nav-desk">
                 <ul class="navbar-nav ">
@@ -52,13 +59,17 @@
                     <li class="nav-item">
                         <a class="nav-link noline" href="tel:568 564 9876">Call now: 568 564 9876</a>
                     </li>
-                    <li>
-                        <button class="navbar-toggler  border-0 hamburger hamburger--elastic " data-toggle="offcanvas" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
-                    </li>
+                    <div class="redes">
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a></li>
+                            <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a></li>
+                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+
                 </ul>
             </div>
 
@@ -119,6 +130,8 @@
                             <li><a href="#aggregation">While label mobile applications</a></li>
                             <li><a href="#unlimited">Unlimited 24/7 support</a></li>
 
+
+
                         </div>
 
 
@@ -127,16 +140,7 @@
             </div>
         </nav>
 
-        <div class="redes">
-            <ul>
-                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a></li>
-                <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a></li>
-                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a></li>
-            </ul>
-        </div>
+
     </header>
     <div class="wrapper">
         <div class="slider-banner">
@@ -152,24 +156,24 @@
     </div>
 
     <section>
-        <div class="container">
+        <div class="">
             <div class="main-content">
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="{{ url('assets/img/mini/1Recurso 1.png') }}" alt="">
+                    <img src="{{ url('assets/img/mini/1Recurso 1.jpeg') }}" alt="">
                     <div class="main-content_txt">
                         <p>+20 years of</p>
                         <span>global operations</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="{{ url('assets/img/mini/1Recurso 2.png') }}" alt="">
+                    <img src="{{ url('assets/img/mini/1Recurso 3.jpeg') }}" alt="">
                     <div class="main-content_txt">
                         <p>INTEGRATION</p>
                         <span>of our services</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/1Recurso 3.png') }}" alt="">
+                    <img src="{{ url('assets/img/mini/1Recurso 2.png') }}" alt="">
                     <div class="main-content_txt">
                         <p> +1 BILLION</p>
                         <span> IN PROCESSED CLAIMS</span>
@@ -189,23 +193,19 @@
     </section>
 
     <section class="main-background" style="background:url('assets/img/background.jpeg')" id="mix-of-services">
-
-
-
         <div class="row">
             <div class="col-md-6" data-aos="fade-up">
                 <p>
                     <strong> OVER TWO DECADES</strong> <br>
-
                 </p>
-                <p> of finding the perfect
-                    mix of resources to
+                <p> of finding the perfect <br>
+                    mix of resources to <br>
                     service your claim.</p>
             </div>
             <div class="col-md-6">
                 <div class="slider-logo">
-                    <img data-aos="zoom-in" data-aos-duration="2500" src="{{ url('assets/img/logo3.png') }}" alt="">
-                    <img data-aos="zoom-in" data-aos-duration="2500" src="{{ url('assets/img/logo4.png') }}" alt="">
+                    <img src="{{ url('assets/img/logo3.png') }}" alt="">
+                    <img src="{{ url('assets/img/logo4.png') }}" alt="">
                 </div>
 
             </div>
@@ -268,20 +268,20 @@
                     <p>We protect your brand equity and make your
                         clients happy through a singular focus on delivering
                         flawless, seamless, and effective service.</p>
-                        <a class="btns btn-red" href="">Go to Webpage</a>
+                    <a class="btns btn-red" href="">Go to Webpage</a>
                 </div>
             </div>
             <div class="md-abrodad " style="background:url('assets/img/banner-secction.jpg')" id="md">
                 <div class="md-abrodad_item container md-abrodad_item_two" data-aos="zoom-in" data-aos-duration="2500">
                     <img src="{{ url('assets/img/logoyell.png') }}" alt="">
                     <strong>UNPARALLED SERVICES FOR
-                    THE HEALTH CARE INDUSTRY</strong>
-                                        <p>MDCapital Solutions is a company established to expand MDabroad´s
-                    claim funding program and provide financing solutions to the healthcare industry designing and
-                    facilitating flexible offerings to meet cash and technology needs, including: Medical Provider and
-                    Healthcare Payer Solutions,Air Ambulance and Financial Health.</p>
+                        THE HEALTH CARE INDUSTRY</strong>
+                    <p>MDCapital Solutions is a company established to expand MDabroad´s
+                        claim funding program and provide financing solutions to the healthcare industry designing and
+                        facilitating flexible offerings to meet cash and technology needs, including: Medical Provider and
+                        Healthcare Payer Solutions,Air Ambulance and Financial Health.</p>
 
-                        <a class="btns btn-yello" href="">Go to Webpage</a>
+                    <a class="btns btn-yello" href="">Go to Webpage</a>
                 </div>
             </div>
             <div class="md-abrodad" style="background:url('assets/img/bannersection2.jpg')" id="md">
@@ -290,7 +290,7 @@
                     <strong>KEEP UP WITH THE NEWS!</strong>
                     <p>MDAmericas is the source for regional news and knowledge for intenational traveler insurance pofessionals, IPMi and Affinity</p>
 
-                        <a class="btns btn-blue" href="">Go to Webpage</a>
+                    <a class="btns btn-blue" href="">Go to Webpage</a>
                 </div>
             </div>
         </div>
@@ -298,9 +298,9 @@
     </section>
 
     <section class="mt-5 .mb-5">
-        <div class="container">
+        <div class="">
             <div class="main-content">
-            <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
+                <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
                     <img src="{{ url('assets/img/mini/qqRecurso 8.png') }}" alt="">
                     <div class="main-content_txt">
                         <p> COST <br>
@@ -315,7 +315,7 @@
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="{{ url('assets/img/mini/ddsRecurso 8.png') }}" alt="">
+                    <img src="{{ url('assets/img/mini/recursoimg3.jpeg') }}" alt="">
                     <div class="main-content_txt">
                         <p>TRAVEL <br>
                             ASSISTANCE</p>
@@ -323,7 +323,7 @@
                 </div>
 
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/ssdRecurso 8.png')}}" alt="">
+                    <img src="{{ url('assets/img/mini/recursoimg4.jpeg')}}" alt="">
                     <div class="main-content_txt">
                         <p>QUALITY <br>
                             ASSURANCE</p>
@@ -338,7 +338,7 @@
     <section></section>
 
     <section class="main-services" id="assistance-services">
-         <div class="main-services_item">
+        <div class="main-services_item">
             <div class="titles-service mt-0 " data-aos="fade-right">
                 <h2>BEST-IN-CLASS COST CONTAINMENT <br> VIA STRATEGIC RELATIONSHIPS</h2>
             </div>
@@ -352,14 +352,14 @@
                         Our collaborative strategy lowers payer losses due
                         to inpatient and outpatient claims <br><br>
 
-                      <div class="text-center">
-                      <img class="atena" src="{{ url('assets/img/service/aetna.png') }}" alt="">
-                      </div><br> <br>
+                    <div class="text-center">
+                        <img class="atena" src="{{ url('assets/img/service/aetna.png') }}" alt="">
+                    </div><br> <br>
 
                     </p>
                     <p>
 
-                    <strong>MDGroup </strong>/ <strong>MDabroad</strong> offers clients significant
+                        <strong>MDGroup </strong>/ <strong>MDabroad</strong> offers clients significant
                         discounts and cashless access in the USA via the
                         credentialled provider network of Aetna Insurance
                         Company. The network includes hundreds of
@@ -389,38 +389,38 @@
                 <h2>BEST-IN-CLASS COST CONTAINMENT <br> VIA STRATEGIC RELATIONSHIPS</h2>
             </div>--->
             <div class="main-services_content">
-                <div class="ml-4">
+                <div class="ml-4 ml-content">
                     <p>
-                  <strong>  AssisticaMD:</strong> <br>
-                <strong>MDGroup</strong> / <strong>MDabroad</strong> is the first TPA in the
-                world to use AssisticaMD, a uniquely effective, SaaS
-                powered technology for pre-paid medical assistance
-                on demand. Geared towards imdemnity payers,
-                use of AssisticaMD results in substantial savings on
-                policy service of small medical claims. AssisticaMD
-                enabels <strong>MDabroad</strong> to remain competitivly priced.
-                Optionally, clients that want to migrate to
-                AssisticaMD's white lable program will receive
-                continued TPA support from <strong>MDabroad</strong> for
-                inpatient claims and related case management
-                service.
+                        <strong> AssisticaMD:</strong> <br>
+                        <strong>MDGroup</strong> / <strong>MDabroad</strong> is the first TPA in the
+                        world to use AssisticaMD, a uniquely effective, SaaS
+                        powered technology for pre-paid medical assistance
+                        on demand. Geared towards imdemnity payers,
+                        use of AssisticaMD results in substantial savings on
+                        policy service of small medical claims. AssisticaMD
+                        enabels <strong>MDabroad</strong> to remain competitivly priced.
+                        Optionally, clients that want to migrate to
+                        AssisticaMD's white lable program will receive
+                        continued TPA support from <strong>MDabroad</strong> for
+                        inpatient claims and related case management
+                        service.
                     </p>
                     <div class="content-service-btn text-center mt-4">
                         <span>More Information</span><br>
                         <a class="btn" href="#">Click here</a>
                     </div>
                     <p> <br>
-                   <strong> MedPay:</strong><br>
-                   <strong> MDGroup</strong> / <strong>MDabroad</strong> is the first TPA in the
-                    Americas to use MedPay. MedPay is designed as a
-                    B2C self-service assistance & claims management
-                    platform that delivers a superb user experience and
-                    financial process efficiencies for the payer. MedPay
-                    is accessible as an downloadable, smartphone
-                    application. Clients that want to migrate to branded
-                    use MedPay will receive continued Assistance & TPA
-                    support from <strong>MDabroad</strong> for inpatient claims and
-                    related case management service.
+                        <strong> MedPay:</strong><br>
+                        <strong> MDGroup</strong> / <strong>MDabroad</strong> is the first TPA in the
+                        Americas to use MedPay. MedPay is designed as a
+                        B2C self-service assistance & claims management
+                        platform that delivers a superb user experience and
+                        financial process efficiencies for the payer. MedPay
+                        is accessible as an downloadable, smartphone
+                        application. Clients that want to migrate to branded
+                        use MedPay will receive continued Assistance & TPA
+                        support from <strong>MDabroad</strong> for inpatient claims and
+                        related case management service.
                     </p>
                     <div class="content-service-btn text-center mt-4">
                         <span>More Information</span><br>
@@ -436,8 +436,8 @@
                 <h2>A FOCUS ON INTELLIGENT COST CONTAINMENT</h2>
             </div>
             <div class="main-services_content">
-            <div class="position-relative"  data-aos="fade-left" data-aos-duration="1000">
-                <div class="circle"></div>
+                <div class="position-relative" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="circle"></div>
                     <img src="{{ url('assets/img/service/services (3).png') }}" alt="">
                 </div>
                 <div class="ml-4">
@@ -451,7 +451,7 @@
                         worldwide, we pay in local currency through our
                         own staff, avoiding manipulation of pharmacy and
                         consultation prices.<br><br>
-                       Proactive cost containment in US hospitals.<br><br>
+                        Proactive cost containment in US hospitals.<br><br>
                         • We deploy a network of hospitalists who manage
                         care within the hospital setting on a proactive basis,
                         as opposed to traditional case management and
@@ -467,7 +467,7 @@
                 <h2>365/24/7 ASSISTANCE SERVICES</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (2).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"><img style="height: auto;" src="{{ url('assets/img/service/serivece2.jpeg') }}" alt=""></div>
                 <div class="ml-4">
                     <p> <strong>MDabroad´s</strong> assistance services are multi-faceted,
                         many travelers are rarely prepared for illness while
@@ -514,7 +514,7 @@
                         · Telemedicine.<br>
                         · Prescribe medication - Discount Program for our clients members.<br>
                         Discount Program for our client’s members.<br><br>
-                      White-glove approach to additional services:<br><br>
+                        White-glove approach to additional services:<br><br>
                         · Accompanying person in case of prolonged <br>
                         <b style="color: transparent;">· </b> hospitalization - Air Travel and/or Lodging <br>
                         · Cases arising from the practice of sports <br>
@@ -532,7 +532,7 @@
                     </p>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ url('assets/img/service/services (9).png') }}" alt="">
+                    <img class="position-img-3" style="    height: 100%;" src="{{ url('assets/img/service/services (9).jpeg') }}" alt="">
                 </div>
 
             </div>
@@ -542,7 +542,7 @@
                 <h2>TELEMEDICINE: THE FUTURE IS HERE</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (8).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (8).jpeg') }}" alt=""></div>
                 <div class="ml-4">
                     <p>
                         In simple cases, our Operations Center may offer the
@@ -575,7 +575,7 @@
                 <h2>EXTRAORDINARY ASSISTANCE SERVICES</h2>
             </div>
             <div class="main-services_content">
-                <div class="ml-4">
+                <div class="ml-content">
                     <p><strong>Services for Healthcare Insurers and TPAs</strong></p>
                     <p> <strong>MDabroad´s</strong> is a leader in the TPA space in the
                         Americas. With a local presence in the US for
@@ -601,7 +601,7 @@
                     </p>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ url('assets/img/service/services (6).png') }}" alt="">
+                    <img src="{{ url('assets/img/service/services (6).jpeg') }}" alt="">
                 </div>
 
             </div>
@@ -611,7 +611,7 @@
                 <h2>TECHNICAL & PERSONAL TRAVEL ASSISTANCE</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (5).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (5).jpeg') }}" alt=""></div>
                 <div class="ml-4">
                     <p>
                         Tracking of lost luggage and concierge services
@@ -641,14 +641,14 @@
             </div>
         </div>
 
-        <div class="main-services_item main-services_item-edit" id="fraud">
+        <div class="main-services_item " id="fraud">
             <div class="titles-service " data-aos="fade-right">
                 <h2>FRAUD CONTROL</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (4).png') }}" alt=""></div>
-                <div class="ml-4 center">
-                    <p class="txt-strong">FORWARD VISION COST CONTAINMENT FRAUD
+                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/test.jpeg') }}" alt=""></div>
+                <div class="ml-4 center center-flex">
+                    <p class="txt-strong">FORWARD VISION COST CONTAINMENT <br> FRAUD
                         CONTROL AND AUDITING
                     </p>
                     <p>
@@ -688,7 +688,7 @@
                     </p>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ url('assets/img/service/services (10).png') }}" alt="">
+                    <img class="img-height" src="{{ url('assets/img/service/map.jpeg') }}" alt="">
                 </div>
 
             </div>
@@ -699,7 +699,7 @@
             </div>
             <div class="main-services_content">
 
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (1).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (1).jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
                         <strong> MDabroad</strong> offers payers meticulous case
@@ -715,7 +715,7 @@
                         proprietary software platform that tracks the specific
                         processes and needs for each Client.<br><br>
                         Other Services for claims management include the
-                            following:<br><br>
+                        following:<br><br>
                         · Adjudication on our system or our clients’ system<br>
                         · Proprietary software platform<br>
                         · Outsourcing solutions for TPAs<br>
@@ -770,7 +770,7 @@
                     </p>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
-                    <img src="{{ url('assets/img/service/services (11).png') }}" alt="">
+                    <img src="{{ url('assets/img/service/services (11).jpeg') }}" alt="">
                 </div>
 
             </div>
@@ -780,7 +780,7 @@
                 <h2>SERVICE AT THE SPEED OF DISCOUNT</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (13).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"> <img class="position-img-2" src="{{ url('assets/img/service/service13.jpeg') }}" alt=""></div>
                 <div class="ml-4">
                     <p>
                         Payers can get substantial discounts when paying
@@ -803,7 +803,7 @@
                     ANYWHERE , ANY PLATFORM</h2>
             </div>
             <div class="main-services_content">
-                <div class="ml-4">
+                <div class="ml-content">
                     <p>
                         Our cloud-based proprietary web application is
                         available in real time 24/7, 365-days-a-year
@@ -817,7 +817,7 @@
                         <a class="btn" href="#">Click here</a>
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (12).png') }}" alt=""></div>
+                <div data-aos="fade-left" data-aos-duration="1000"> <img class="position-img-1" src="{{ url('assets/img/service/services (12).jpeg') }}" alt=""></div>
 
             </div>
         </div>
@@ -827,7 +827,7 @@
                     SATISFACTION & QUALITY ASSURANCE</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (7).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/service7.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
                         <strong> Service Delivery Metrics: </strong> <br>
@@ -862,7 +862,7 @@
             <h2>SERVICE LEVELS</h2>
         </div>
         <h3 class="title-levesl">PerfomanCE INDICATOR</h3>
-        <h3 class="title-levesl2"> <strong>md abroad</strong>  service level</h3>
+        <h3 class="title-levesl2"> <strong>md abroad</strong> service level</h3>
         <div class="container services-level" data-aos="zoom-in">
             <div class="level-item">
                 <div class="level-item_one">
@@ -964,8 +964,8 @@
 
     <section class="md-abrodad main-cyber position-relative" style="background:url('assets/img/service/section.png');background-position: center;    height: 60vh;
     background-position: 0px -15rem !important;" id="cybersecurity">
-    <div class="circle"></div>
-         <!---   <div class="mask-md">
+        <div class="circle"></div>
+        <!---   <div class="mask-md">
         <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
 
                 <strong>CYBERSECURITY: </strong>
@@ -1057,40 +1057,64 @@
     </section>
 
     <section class="main-management pt-5 mt-3 position-relative" style="    height: 60vh;">
-    <div class="titles-service mt-0">
-      <h2>TOP MANAGEMENT BIOS</h2>
-    </div>
-        <div class="ml-4 center items-job">
-            <div class="items-job-1">
-             <p><strong>Scott Rosen</strong> CEO</p>
-             <span><div class="line"></div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+        <div class="titles-service mt-0">
+            <h2>TOP MANAGEMENT BIOS</h2>
+        </div>
+        <div class="ml-all center items-job">
+            <div class="items-job-1 as">
+                <p><strong>Scott J. Rosen</strong> CEO</p>
+                <div class="line-top">
+                    <span> In 2000, Rosen developed MDabroad to deliver the first independent global provider network to the iPMI, travel insurance and reinsurance
+                        segment.
+                        In our past 20 years of operation, md•group has evolved into a group of companies to provide specific solutions to many facets of the
+                        market</span>
+                </div>
             </div>
             <div class="items-job-1">
-             <p><strong>Ralph Patiño</strong> CFO & COO</p>
-             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+                <p><strong>Shai S. Gold </strong>Corporate SVP</p>
+                <span>Effective health space executive, bold business strategist and seasoned business consultant.
+                    30 years of domestic and international healthcare strategic planning, healthcare delivery, turnaround, revenue cycle management, health
+                    and travel medical insurance, risk management, global medical assistance and air-ambulance services</span>
+            </div>
+
+            <div class="items-job-1">
+                <p><strong>Ralph Patiño</strong> CFO & COO</p>
+                <span>Experienced Financial Director with 30+ years in the health care, financial services and aviation sectors.
+                    Skilled in Corporate Finance, Hedge Funds, Cost Planning, Finance, and Budget Reconciliation.
+                    Strong financial and operations professional.</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Peter Cejas Esq</strong> Managing Dir. MDCCapital</p>
-             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+                <p><strong>Peter Cejas, Esq</strong> Managing Dir. MDCapital®</p>
+                <span>An international legal financial and strategic expert who founded MDCapital® with Scott Rosen.
+                    Cejas is an JD MBA with over 20 years of experience and specific expertise with off-balance sheet claims financing as well as asset-based
+                    loans, corporate restructuring, due diligence and SEC-related litigation.</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Cristina Valenzuela</strong> VP Operations</p>
-             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+                <p><strong>Cristiane Valenzuela</strong> VP Operations</p>
+                <span>Seasoned assistance operations manager with 15+ years of experience managing all phases of assistance, customer and provider services,
+                    claim servicing. Regionally focused expertise in the Americas, global operating experience, management of up to 100 FTEs. Senior decisionmaker.</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Guillermo J. Castilba</strong> Sales Director</p>
-             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+                <p><strong>Guillermo J. Castilha</strong> Sales Director</p>
+                <span>Guillermo brings over 20 years of experience in the health care industry. He has created and implemented a wide range of commercial
+                    strategies.
+                    As our longest servimg employee, Guillermo has led our sales and new-Business efforts in the US and Latin America, creating strategic
+                    alliances and expansion plans.</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Adrian</strong> Provider Network Manager</p>
-             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+                <p><strong>Adrian Ramundo </strong> Provider Network Manager</p>
+                <span>Adrian is a 20-year veteran of the travel insurance and IPMI assistance business.
+                    Adrian manages MDAbroad’s expansive provider network in the Americas aiming to achieve seamless integration of cashless access for
+                    insured beneficiaries throughout the Americas.</span>
             </div>
             <div class="items-job-1">
-             <p><strong>Ing. Rafael</strong> IT adn Cybersecurity Director</p>
-             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit cumque quasi libero aliquid dicta odio unde explicabo, magni veniam! Necessitatibus ratione eum ullam itaque illo officia laborum harum delectus corrupti?</span>
+                <p><strong>Ing. Rafael Ablin</strong> IT and Cybersecurity Director</p>
+                <span>Rafael is a graduate of the Universidad de Tecnologia Nacional in Buenos Aires where he received his engineering degree in IT Systems.
+                    Rafael is a 22-year veteran of the information technology and cyber-security fields.
+                    He provides leadership over our complex computer systems and ensures compliance with international performance standards.</span>
             </div>
         </div>
-  </section>
+    </section>
 
     <section class="main-services located mb-5">
         <div class="main-services_item mt-5 main-service_modif">
@@ -1099,7 +1123,7 @@
             </div>
             <div class="main-services_content">
 
-                <div class="ml-4 center">
+                <div class="ml-content center">
                     <p>
                         A central hub that allows for reliable domestic and
                         cross-border financial transactions, convenient
@@ -1121,7 +1145,7 @@
 
 
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (9).png') }}" alt=""></div>
+                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (9).jpeg') }}" alt=""></div>
             </div>
         </div>
     </section>
@@ -1141,7 +1165,7 @@
                 <h2>LIKE ACETAMINOPHEN FOR YOUR CFO</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/other/services (6).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/other/servine6.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
                         <strong> MDabroad </strong> Claims Funding (MDCF) is our unique
@@ -1163,7 +1187,7 @@
         <div class="main-services_item mt-5  main-service_modif">
 
             <div class="main-services_content">
-                <div class="ml-4 center">
+                <div class="ml-content center">
                     <div class="titles-service " data-aos="fade-right">
                         <h5>WE HAVE ESTABLISHES AN <br>
                             INDUSTRY-FIRST INTERNATIONAL <br>
@@ -1182,13 +1206,13 @@
                     </p>
 
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (5).png') }}" alt=""></div>
+                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (5).jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5  main-service_modif">
 
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (4).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/service4.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <div class="titles-service " data-aos="fade-right">
                         <h5>SECURE PLATFORM FOR INTERNATIONAL<br>
@@ -1211,7 +1235,7 @@
         </div>
         <div class="main-services_item mt-5  main-service_modif" id="legibility">
             <div class="main-services_content">
-                <div class="ml-4 center">
+                <div class="ml-content center">
                     <div class="titles-service " data-aos="fade-right">
                         <h5>ELEGIBILITY : VERIFICATION OF BENEFITS, <br>
                             GOPS, EXTENSIONS</h5>
@@ -1230,13 +1254,13 @@
                     </p>
 
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (3).png') }}" alt=""></div>
+                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/service3.jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5  main-service_modif" id="case-status">
 
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (1).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/sericies1.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <div class="titles-service " data-aos="fade-right">
                         <h5>CASE STATUS, COMMUNICATIONS LOG <br>
@@ -1256,7 +1280,7 @@
         </div>
         <div class="main-services_item mt-5  main-service_modif" id="aggregation">
             <div class="main-services_content">
-                <div class="ml-4 center">
+                <div class="ml-content center">
                     <div class="titles-service" data-aos="fade-right">
                         <h5>AGGREGATION, THE POWER OF NUMBERS</h5>
                     </div>
@@ -1283,11 +1307,11 @@
         </div>
     </section>
 
-    <section class="md-abrodad bg-section-slider" style="background:url('assets/img/other/bg.jpeg')">
+    <section class="md-abrodad bg-section-slider position-img" style="background:url('assets/img/other/bg.jpeg')">
         <div class="md-abrodad_item container" id="unlimited">
 
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-9 mt-5">
                     <div class="slider-banner items_blue" data-aos="zoom-in" data-aos-duration="2500">
                         <div>
                             <h2 class="s"><strong>UNLIMITED 24/7 SUPPORT, <br>
@@ -1340,7 +1364,7 @@
                 <p> <a href="#"> Top Management Bios</a></p>
             </div>
             <div class="col-md-4 footer_item">
-                <p> <a href="#">Read more </a></p>
+                <p> Read more: </p>
                 <p> <a href="#management"> Secure Platform for International Claims</a></p>
                 <p><a href="#management"> Management</a></p>
                 <p> <a href="#case-status"> Case Status, Communications Log</a></p>
@@ -1357,9 +1381,19 @@
         <div class="footer_end mt-5">
             <div class="row">
                 <div class="col-md-4">
-                    <h5><strong>Call now: 568 564 9876</strong></h5>
+                    <h5 class="h5_footer">Call now: 568 564 9876</h5>
                 </div>
                 <div class="col-md-4">
+                <div class="redes redes-foter ">
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a></li>
+                            <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a></li>
+                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a></li>
+                        </ul>
+                    </div>
                     <p>MDgroup · 2021</p>
                 </div>
                 <div class="col-md-4">
@@ -1372,18 +1406,18 @@
         </div>
     </footer>
 
-<a class="ws" target="_blank" href="https://api.whatsapp.com/send?phone=5685649876">
-<img id="iso" src="{{ url('assets/img/ws.png') }}">
-</a>
+    <a class="ws" target="_blank" href="https://api.whatsapp.com/send?phone=5685649876">
+        <img id="iso" src="{{ url('assets/img/ws.png') }}">
+    </a>
 
 
     <!---<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>-->
 
-    <script  src="{{ url('assets/js/jquery.min.js') }}"></script>
-    <script  src="{{ url('assets/js/slick.min.js') }}"></script>
+    <script src="{{ url('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ url('assets/js/slick.min.js') }}"></script>
     <script src="{{ url('assets/js/custom.js') }}"></script>
-    <script  src="{{ url('assets/js/aos.js') }}"></script>
+    <script src="{{ url('assets/js/aos.js') }}"></script>
     <!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>-->
     <script>
         AOS.init();
