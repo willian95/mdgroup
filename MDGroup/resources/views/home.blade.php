@@ -245,8 +245,8 @@
                             <p>Full Policy Support</p>
                             <p>GDPR & HIPPA Compliant</p>
                             <p>Advanced Information Technologies</p>
-                            <p>Unique Expertise in LATAM & the </p>
-                            <p>Caribbean</p>
+                            <p>Unique Expertise in LATAM & the Caribbean </p>
+
                             <p>While-Label Resources</p>
                             <p>Transparent Reporting </p>
                             <p>International Legal Support</p>
@@ -358,7 +358,7 @@
             <div class="main-services_content">
                 <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/serviceq.jpg') }}" alt=""></div>
                 <div class="ml-4">
-                    <p> To attain optimal savings and exceptional client experience, <strong>MDGroup</strong> / <strong>MDabroad</strong> offer clients the power of LEVERAGED relationships with key brands and novel technologies. Our collaborative strategy lowers payer losses due to inpatient and outpatient claims.
+                    <p> To attain optimal savings and exceptional client experience, <strong>MDGroup</strong> / <strong>MDabroad</strong> offer clients the power of LEVERAGED relationships with key brands and novel technologies. Our collaborative strategy lowers payer losses due to inpatient and outpatient claims.
                         <br><br>
 
                     <div class="text-center">
@@ -368,7 +368,7 @@
                     </p>
                     <p>
 
-                        <strong>MDGroup </strong>/ <strong>MDabroad </strong> offers clients significant discounts and cashless access in the USA via the credentialled provider network of Aetna Insurance Company. The network includes hundreds of JCAHO accredited hospitals, thousands of licensed physicians, labs, imaging centers, physical therapy centers & medical equipment suppliers.Our partnership with Aetna delivers best-in-class savings and a seamless patient experience.
+                        <strong>MDGroup </strong>/ <strong>MDabroad </strong> offers clients significant discounts and cashless access in the USA via the credentialled provider network of Aetna Insurance Company. The network includes hundreds of JCAHO accredited hospitals, thousands of licensed physicians, labs, imaging centers, physical therapy centers & medical equipment suppliers.Our partnership with Aetna delivers best-in-class savings and a seamless patient experience.
 
 
                         <br><br>
@@ -526,7 +526,7 @@
 
                     <p>
                         <strong> Services for Healthcare Insurers and TPAs</strong> <br> <br>
-                        <strong>MDabroad</strong> is a leader in the TPA space in the Americas. With a local presence in the US for nearly two decades, we have earned the trust and relationships of the facilities and providers that are most commonly chosen by the international patient market. <br>
+                        <strong>MDabroad</strong> is a leader in the TPA space in the Americas. With a local presence in the US for nearly two decades, we have earned the trust and relationships of the facilities and providers that are most commonly chosen by the international patient market. <br>
                         Serving expatriates and travelers globally, we have the human resources and technology to connect payers, providers and patients, enabling direct access to a large network of providers, in addition to our white glove service and 24/7 Assistance. <br> <br>
 
                         <strong>Our assistance service delivers a reliable member experience, powered by a rich platform of web and mobile based solutions for clients and members.
@@ -660,7 +660,7 @@ Through <strong>MDabroad</strong> , many international insurers and TPAs obtain 
 MDCF helps payers in the international insurance space, deal with their accounts payable in real time, maximizing prompt payment discounts while enjoying a convenient payback term. <br><strong> MDabroad</strong> offers a complimentary assessment to facilitate immediate implementation for this product. <br>
 md  abroad is committed to helping providers, insurance companies, and insureds to be made whole when third parties are culpable for the injuries suffered by insureds. <br> <br>
 
-<strong>Recoveries/Subrogation</strong> <br> Our company works closely with numerous leading attorneys who focus on subrogation and lien enforcement Services where there is third party responsibility. Upon request, md  abroad can partner up injured insureds with attorneys in the jurisdiction where the accident occurred to provide counsel if the injuries stem from the fault of another. Ultimately, md  abroad consistently reviews the facts of all injuries and accidents with counsel to determine if dollars can be recovered for all interested parties.
+<strong>Recoveries/Subrogation</strong> <br> Our company works closely with numerous leading attorneys who focus on subrogation and lien enforcement Services where there is third party responsibility. Upon request, md  abroad can partner up injured insureds with attorneys in the jurisdiction where the accident occurred to provide counsel if the injuries stem from the fault of another. Ultimately, md  abroad consistently reviews the facts of all injuries and accidents with counsel to determine if dollars can be recovered for all interested parties.
                     </p>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
@@ -858,7 +858,7 @@ Our State-of-the-art web application provides access to real-time processing, de
                 <strong> OF THE HERE AND NOW
                 </strong>
 
-                <p> <strong>personal Health Information Confidentiality</strong> <br> ALL our personnel complies with the strictest industry requirements, namely HIPAA (Health Insurance Portability and Accountability Act) and GDPR (General Data
+                <p> <strong>personal Health Information Confidentiality</strong> <br> ALL our personnel complies with the strictest industry requirements, namely HIPAA (Health Insurance Portability and Accountability Act) and GDPR (General Data
 Protection Regulation), regarding the safeguard of the patient’s confidential
 information. We invest significant resources in creating, maintaining and updating
 all our software and processes to assure the highest degree of Cybersecurity
@@ -1055,7 +1055,7 @@ MDCF is a revolutionary payment solution that was developed for healthcare insur
                     Healthcare providers can benefit from our Claims Advance Fund that advances payments on claims.
 Healthcare providers enjoy accelerated cash flow, reduced accounts receivable, and diminished delinquent accounts.  <br><br>
 Providers can enjoy a reduction of medical loss and expenses associated with claims resolution.
-<strong>MDabroad </strong> is happy to evaluate your specific needs as a healthcare provider.
+<strong>MDabroad </strong> is happy to evaluate your specific needs as a healthcare provider.
                     </p>
 
                 </div>
