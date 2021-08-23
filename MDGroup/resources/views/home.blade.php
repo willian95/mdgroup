@@ -166,24 +166,24 @@
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="{{ url('assets/img/mini/1Recurso 3.jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/service/shutterstock_736876354.jpg') }}" alt="">
                     <div class="main-content_txt">
                         <p>INTEGRATION</p>
                         <span>of our services</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/1Recurso 2.png') }}" alt="">
+                    <img src="{{ url('assets/img/billon.jpeg') }}" alt="">
                     <div class="main-content_txt">
                         <p> +1 BILLION</p>
                         <span> IN PROCESSED CLAIMS</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/1Recurso 4.png') }}" alt="">
+                    <img src="{{ url('assets/img/hands.jpeg') }}" alt="">
                     <div class="main-content_txt">
                         <p> TOP NOTCH</p>
-                        <span> MANAGEMENT INTEGRATION</span>
+                        <span> MANAGEMENT</span>
                     </div>
                 </div>
             </div>
@@ -260,6 +260,17 @@
 
     <section id="">
         <div class="slider-promise">
+            <div>
+                <img src="{{ url('assets/img/Untitled-5-02.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ url('assets/img/Untitled-5-03.png') }}" alt="">
+            </div>
+            <div>
+                <img src="{{ url('assets/img/Untitled-5-01.png') }}" alt="">
+            </div>
+        </div>
+        <!----<div class="slider-promise">
             <div class="md-abrodad" style="background:url('assets/img/bann.jpeg')" id="md">
                 <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
                     <img src="{{ url('assets/img/logored.png') }}" alt="">
@@ -293,7 +304,7 @@
                     <a class="btns btn-blue" href="">Go to Webpage</a>
                 </div>
             </div>
-        </div>
+        </div>-->
 
     </section>
 
@@ -301,7 +312,8 @@
         <div class="">
             <div class="main-content">
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/qqRecurso 8.png') }}" alt="">
+                    <img src="{{ url('assets/img/mini/recursoimg4.jpeg')}}" alt="">
+
                     <div class="main-content_txt">
                         <p> COST <br>
                             CONTAINMENT</p>
@@ -323,7 +335,8 @@
                 </div>
 
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/recursoimg4.jpeg')}}" alt="">
+                    <img src="{{ url('assets/img/mini/qqRecurso 8.png') }}" alt="">
+
                     <div class="main-content_txt">
                         <p>QUALITY <br>
                             ASSURANCE</p>
@@ -345,12 +358,8 @@
             <div class="main-services_content">
                 <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/serviceq.jpg') }}" alt=""></div>
                 <div class="ml-4">
-                    <p> To attain optimal savings and exceptional client
-                        experience, <strong> MDGroup</strong> / <strong>MDabroad</strong> offer
-                        clients the power of LEVERAGED relationships with
-                        key brands and novel technologies.
-                        Our collaborative strategy lowers payer losses due
-                        to inpatient and outpatient claims <br><br>
+                    <p> To attain optimal savings and exceptional client experience, <strong>MDGroup</strong> / <strong>MDabroad</strong> offer clients the power of LEVERAGED relationships with key brands and novel technologies. Our collaborative strategy lowers payer losses due to inpatient and outpatient claims.
+                        <br><br>
 
                     <div class="text-center">
                         <img class="atena" src="{{ url('assets/img/service/aetna.png') }}" alt="">
@@ -359,27 +368,14 @@
                     </p>
                     <p>
 
-                        <strong>MDGroup </strong>/ <strong>MDabroad</strong> offers clients significant
-                        discounts and cashless access in the USA via the
-                        credentialled provider network of Aetna Insurance
-                        Company. The network includes hundreds of
-                        JCAHO accredited hospitals, thousands of licensed
-                        physicians, labs, imaging centers, physical therapy
-                        centers & medical equipment suppliers.
-                        Our partnership with Aetna delivers best-in-class
-                        savings and a seamless patient experience.
+                        <strong>MDGroup </strong>/ <strong>MDabroad </strong> offers clients significant discounts and cashless access in the USA via the credentialled provider network of Aetna Insurance Company. The network includes hundreds of JCAHO accredited hospitals, thousands of licensed physicians, labs, imaging centers, physical therapy centers & medical equipment suppliers.Our partnership with Aetna delivers best-in-class savings and a seamless patient experience.
+
 
                         <br><br>
 
-                        <STRONG>InsiderRx:</STRONG> Substantial Discounts on Outpatient
-                        Medications via the MDabroad PharmaCard (logo)
-                        MD Group / MDabroad offers clients up to 80%
-                        discount of brand and generic medication in
-                        thousands of pharamacies in the USA via a
-                        partnership with InsideRx. Beneficiaries receive a
-                        virtual discount card to their email or smart phone
-                        with a unqiue user code tailored to clients of the
-                        <strong>MDabroad</strong> group
+                        <strong> InsiderRx:</strong> Substantial Discounts on Outpatient Medications via the MDabroad PharmaCard (logo)
+                        MD Group / MDabroad offers clients up to 80% discount of brand and generic medication in thousands of pharamacies in the USA via a partnership with InsideRx. Beneficiaries receive a virtual discount card to their email or smart phone with a unqiue user code tailored to clients of the <strong>MDabroad</strong> group.
+
                     </p>
                 </div>
             </div>
@@ -391,36 +387,15 @@
             <div class="main-services_content">
                 <div class="ml-4 ml-content">
                     <p>
-                        <strong> AssisticaMD:</strong> <br>
-                        <strong>MDGroup</strong> / <strong>MDabroad</strong> is the first TPA in the
-                        world to use AssisticaMD, a uniquely effective, SaaS
-                        powered technology for pre-paid medical assistance
-                        on demand. Geared towards imdemnity payers,
-                        use of AssisticaMD results in substantial savings on
-                        policy service of small medical claims. AssisticaMD
-                        enabels <strong>MDabroad</strong> to remain competitivly priced.
-                        Optionally, clients that want to migrate to
-                        AssisticaMD's white lable program will receive
-                        continued TPA support from <strong>MDabroad</strong> for
-                        inpatient claims and related case management
-                        service.
+                        <strong>AssisticaMD: MDGroup / MDabroad</strong> is the first TPA in the world to use AssisticaMD, a uniquely effective, SaaS powered technology for pre-paid medical assistance on demand. Geared towards imdemnity payers, use of AssisticaMD results in substantial savings on policy service of small medical claims. AssisticaMD enabels MDabroad to remain competitivly priced. Optionally, clients that want to migrate to AssisticaMD's white lable program will receive continued TPA support from <strong>MDabroad</strong> for inpatient claims and related case management service.
+
                     </p>
                     <div class="content-service-btn text-center mt-4">
                         <span>More Information</span><br>
                         <a class="btn" href="#">Click here</a>
                     </div>
                     <p> <br>
-                        <strong> MedPay:</strong><br>
-                        <strong> MDGroup</strong> / <strong>MDabroad</strong> is the first TPA in the
-                        Americas to use MedPay. MedPay is designed as a
-                        B2C self-service assistance & claims management
-                        platform that delivers a superb user experience and
-                        financial process efficiencies for the payer. MedPay
-                        is accessible as an downloadable, smartphone
-                        application. Clients that want to migrate to branded
-                        use MedPay will receive continued Assistance & TPA
-                        support from <strong>MDabroad</strong> for inpatient claims and
-                        related case management service.
+                        <strong>MedPay: MDGroup / MDabroad</strong> is the first TPA in the Americas to use MedPay. MedPay is designed as a B2C self-service assistance & claims management platform that delivers a superb user experience and financial process efficiencies for the payer. MedPay is accessible as an downloadable, smartphone application. Clients that want to migrate to branded use MedPay will receive continued Assistance & TPA support from MDabroad for inpatient claims and related case management service.
                     </p>
                     <div class="content-service-btn text-center mt-4">
                         <span>More Information</span><br>
@@ -438,25 +413,21 @@
             <div class="main-services_content">
                 <div class="position-relative" data-aos="fade-left" data-aos-duration="1000">
                     <div class="circle"></div>
-                    <img src="{{ url('assets/img/service/services (3).png') }}" alt="">
+                    <img style="    object-position: left;" src="{{ url('assets/img/mini/1Recurso 3.jpeg') }}" alt="">
                 </div>
                 <div class="ml-4">
-                    <p><strong>Cost Management </strong></p>
-                    <p> • US Claims are placed through direct agreements
-                        and Aetna Passport Health. <br><br>
-                        • On critical care cases, we deploy immediate
-                        resources, coordination of specialists and immediate
-                        response teams.<br><br>
-                        • Fraud control and auditing. Using local resources
-                        worldwide, we pay in local currency through our
-                        own staff, avoiding manipulation of pharmacy and
-                        consultation prices.<br><br>
-                        Proactive cost containment in US hospitals.<br><br>
-                        • We deploy a network of hospitalists who manage
-                        care within the hospital setting on a proactive basis,
-                        as opposed to traditional case management and
-                        audit that happens after the fact.
+                    <p> <strong> Cost Management</strong></p>
+
+                    <p>• US Claims are placed through direct agreements and Aetna Passport Health.</p>
+                    <p>
+                        • On critical care cases, we deploy immediate resources, coordination of specialists and immediate response teams.
+                        <br> <br>
+                        • Fraud control and auditing. Using local resources worldwide, we pay in local currency through our own staff, avoiding manipulation of pharmacy and consultation prices.
                     </p>
+
+                    <p> <strong> Proactive cost containment in US hospitals.</strong> </p>
+
+                    <p>• We deploy a network of hospitalists who manage care within the hospital setting on a proactive basis, as opposed to traditional case management and audit that happens after the fact.</p>
                 </div>
 
 
@@ -467,73 +438,54 @@
                 <h2>365/24/7 ASSISTANCE SERVICES</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"><img style="height: auto;" src="{{ url('assets/img/service/serivece2.jpeg') }}" alt=""></div>
-                <div class="ml-4">
-                    <p> <strong>MDabroad´s</strong> assistance services are multi-faceted,
-                        many travelers are rarely prepared for illness while
-                        abroad for work and pleasure. Furthermore, they are
-                        unable to predict the many challenges they will face
-                        when navigating through foreign medical systems. <br><br>
-                        This places travelers in a highly vulnerable position
-                        with regard to their medical well-being, both in
-                        minor and complex medical conditions. It is critical
-                        to manage health conditions appropriately and in a
-                        timely manner to minimize risk and costs while
-                        traveling abroad. <br><br>
-                        The ability to respond to these risks can make all the
-                        difference between reasonable and customary
-                        charges and grossly inflated charges. MDabroad
-                        offers comprehensive assistance Services which
-                        ensure immediate access to medical guidance and
-                        care. <br><br>
-                        <strong> MDabroad´s</strong> can assist travelers all over the
-                        globe with an exclusive network of the most highly
-                        credentialed providers, for both outpatient and
-                        inpatient care. <strong>MDabroad</strong> offers unique packages
-                        to support the unique needs of travelers in any part
-                        of the world. Our integrated packages include travel
-                        assistance Services before, during, and upon return.
-                        We extend travel preparation Services, so they are
-                        informed of potential health risks prior to travel.
+
+                <div class="ml-5">
+                    <p> <strong> MDabroad´s </strong> assistance services are multi-faceted, many travelers are rarely prepared for illness while abroad for work and pleasure. Furthermore, they are unable to predict the many challenges they will face when navigating through foreign medical systems. <br> <br>
+                        This places travelers in a highly vulnerable position with regard to their medical well-being, both in minor and complex medical conditions. It is critical to manage health conditions appropriately and in a timely manner to minimize risk and costs while traveling abroad. <br> <br>
+
+                        The ability to respond to these risks can make all the difference between reasonable and customary charges and grossly inflated charges. <strong>MDabroad</strong> offers comprehensive assistance Services which ensure immediate access to medical guidance and care. <br><br>
+                        <strong>MDabroad´s</strong> can assist travelers all over the globe with an exclusive network of the most highly credentialed providers, for both outpatient and inpatient care. <strong>MDabroad</strong> offers unique packages to support the unique needs of travelers in any part of the world. Our integrated packages include travel assistance Services before, during, and upon return. We extend travel preparation Services, so they are informed of potential health risks prior to travel.
                     </p>
                 </div>
+                <div data-aos="fade-right" data-aos-duration="1000"><img style="height: auto;" src="{{ url('assets/img/service/serivece2.jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5" id="better-assistance">
             <div class="titles-service" data-aos="fade-right">
-                <h2 class="ml-5">BETTER MEDICAL ASSISTANCE</h2>
+                <h2 class="m">BETTER MEDICAL ASSISTANCE</h2>
             </div>
             <div class="main-services_content">
-                <div class="ml-5">
-                    <p>
-                        Coordination of outpatient and/or inpatient care
-                        for any medical condition: <br><br>
-                        · Dental Services. <br>
-                        · House Calls.<br>
-                        · Medical Evacuations & Repatriations. <br>
-                        · Telemedicine.<br>
-                        · Prescribe medication - Discount Program for our clients members.<br>
-                        Discount Program for our client’s members.<br><br>
-                        White-glove approach to additional services:<br><br>
-                        · Accompanying person in case of prolonged <br>
-                        <b style="color: transparent;">· </b> hospitalization - Air Travel and/or Lodging <br>
-                        · Cases arising from the practice of sports <br>
-                        · Coordination of medical care for pre-existing
-                        medical conditions <br>
-                        · Early return<br>
-                        · Early return for death of 1st Degree relative <br>
-                        · Escort for the return of minors<br>
-                        · Medical transfers <br>
-                        · Physiotherapy<br>
-                        · Repatriation of mortal remains <br>
-                        · Repatriations <br>
-                        · Return of accompanying persons<br>
-                        · Return to home country due to health reasons
-                    </p>
-                </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
                     <img class="position-img-3" style="    height: 100%;" src="{{ url('assets/img/service/services (9).jpeg') }}" alt="">
                 </div>
+                <div class="">
+                    <p>
+                        <strong> Coordination of outpatient and/or inpatient care for any medical condition:</strong> <br><br>
+                        · Dental Services. <br>
+                        · House Calls. <br>
+                        · Medical Evacuations & Repatriations. <br>
+                        · Telemedicine. <br>
+                        · Prescribe Medication. <br>
+                        Discount Program for our client’s members. <br> <br>
+
+                        <strong>White-glove approach to additional services:</strong>
+                        · Accompanying person in case of prolonged <br>
+                        hospitalization - Air Travel and/or Lodging.<br>
+                        · Cases arising from the practice of sports.<br>
+                        · Coordination of medical care for pre-existing<br>
+                        medical conditions.<br>
+                        · Early return.<br>
+                        · Early return for death of 1st Degree relative.<br>
+                        · Escort for the return of minors.<br>
+                        · Medical transfers.<br>
+                        · Physiotherapy.<br>
+                        · Repatriation of mortal remains.<br>
+                        · Repatriations.<br>
+                        · Return of accompanying persons.<br>
+                        · Return to home country due to health reasons.
+                    </p>
+                </div>
+
 
             </div>
         </div>
@@ -542,20 +494,11 @@
                 <h2>TELEMEDICINE: THE FUTURE IS HERE</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (8).jpeg') }}" alt=""></div>
-                <div class="ml-4">
+
+                <div class="ml-5">
                     <p>
-                        In simple cases, our Operations Center may offer the
-                        possibility of coordinating a telemedical consultation,
-                        and in many cases, it will be the patient who will
-                        usually ask for that type of service, when the medical
-                        condition is considered minor. In every case, our
-                        physicians will speak in the patient’s language:
-                        English, Spanish and Portuguese. <br><br>
-                        This service allows us to reduce response times,
-                        increase direct contact with patients and reduce
-                        costs for our clients. The most common medical
-                        conditions include:<br><br>
+                        In simple cases, our Operations Center may offer the possibility of coordinating a telemedical consultation, and in many cases, it will be the patient who will usually ask for that type of service, when the medical condition is considered minor. In every case, our physicians will speak in the patient’s language: English, Spanish and Portuguese. <br><br>
+                        This service allows us to reduce response times, increase direct contact with patients and reduce costs for our clients. The most common medical conditions include: <br> <br>
                         • Common cold <br>
                         • Allergies <br>
                         • Constipation <br>
@@ -568,6 +511,7 @@
                         • Vomiting<br>
                     </p>
                 </div>
+                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (8).jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5" id="extraordinary-assistance">
@@ -575,34 +519,22 @@
                 <h2>EXTRAORDINARY ASSISTANCE SERVICES</h2>
             </div>
             <div class="main-services_content">
-                <div class="ml-content">
-                    <p><strong>Services for Healthcare Insurers and TPAs</strong></p>
-                    <p> <strong>MDabroad´s</strong> is a leader in the TPA space in the
-                        Americas. With a local presence in the US for
-                        nearly two decades, we have earned the trust and
-                        relationships of the facilities and providers that are
-                        most commonly chosen by the international patient
-                        market. <br><br>
-                        Serving expatriates and travelers globally, we have
-                        the human resources and technology to connect
-                        payers, providers and patients, enabling direct
-                        access to a large network of providers, in addition
-                        to our white glove service and 24/7 Assistance. <br><br>
-                        Our assistance service delivers a reliable member
-                        experience, powered by a rich platform of web and
-                        mobile based solutions for clients and members.
-                        md abroad operates a Secure and Compliant
-                        Platform to transmit patient data and sensitive
-                        financial information for eligibility, GOPs, extensions,
-                        medical reports, invoicing claims settlement service. <br><br>
-                        We deliver transparency and bespoke solutions for
-                        our clients to mitigate losses, drive patients to the
-                        most cost-effective networks and minimize utilization
-                    </p>
-                </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
                     <img src="{{ url('assets/img/service/services (6).jpeg') }}" alt="">
                 </div>
+                <div class="">
+
+                    <p>
+                        <strong> Services for Healthcare Insurers and TPAs</strong> <br> <br>
+                        <strong>MDabroad</strong> is a leader in the TPA space in the Americas. With a local presence in the US for nearly two decades, we have earned the trust and relationships of the facilities and providers that are most commonly chosen by the international patient market. <br>
+                        Serving expatriates and travelers globally, we have the human resources and technology to connect payers, providers and patients, enabling direct access to a large network of providers, in addition to our white glove service and 24/7 Assistance. <br> <br>
+
+                        <strong>Our assistance service delivers a reliable member experience, powered by a rich platform of web and mobile based solutions for clients and members.
+                        </strong> <br> <br>
+                        <strong>MDabroad </strong> operates a Secure and Compliant Platform to transmit patient data and sensitive financial information for eligibility, GOPs, extensions, medical reports, invoicing claims settlement service. <br> <br> We deliver transparency and bespoke solutions for our clients to mitigate losses, drive patients to the most cost-effective networks and minimize utilization.
+                    </p>
+                </div>
+
 
             </div>
         </div>
@@ -611,8 +543,8 @@
                 <h2>TECHNICAL & PERSONAL TRAVEL ASSISTANCE</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (5).jpeg') }}" alt=""></div>
-                <div class="ml-4">
+
+                <div class="ml-5">
                     <p>
                         Tracking of lost luggage and concierge services
                         Cash advance <br><br>
@@ -638,6 +570,7 @@
                         <b style="color: transparent;">• </b>specialists and immediate response teams.
                     </p>
                 </div>
+                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (5).jpeg') }}" alt=""></div>
             </div>
         </div>
 
@@ -667,24 +600,9 @@
             <div class="main-services_content">
                 <div class="ml-5">
                     <p>
-                        <strong>MDabroad </strong> complements the in-house provider
-                        network administration areas of insurance companies
-                        and third-party administrators.
-                        We have built up solid credit worthiness with an
-                        extensive network of strong healthcare providers,
-                        including the most renowned international patient
-                        hospitals around the world. <br><br>
-                        Through <strong>MDabroad</strong> , many international insurers
-                        and TPAs obtain direct access to hospitals who will
-                        not only invoice them directly (thus making it cashless
-                        for the insured), but also benefit from discounts and
-                        other preferred payment considerations that only md
-                        abroad can provide through its rich information and
-                        vast financial resources.<br><br>
-                        <strong>MDabroad</strong> is the most
-                        reliable and objective healthcare provider network
-                        for the management and administration of foreign
-                        patients in many markets in the global arena.
+                  <strong>  MDabroad</strong> complements the in-house provider network administration areas of insurance companies and third-party administrators. <br> <br>
+We have built up solid credit worthiness with an extensive network of strong healthcare providers, including the most renowned international patient hospitals around the world. <br> <br>
+Through <strong>MDabroad</strong> , many international insurers and TPAs obtain direct access to hospitals who will not only invoice them directly (thus making it cashless for the insured), but also benefit from discounts and other preferred payment considerations that only MD abroad can provide through its rich information and vast financial resources. <br> <br> <strong>MDabroad</strong> is the most reliable and objective healthcare provider network for the management and administration of foreign patients in many
                     </p>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
@@ -737,36 +655,12 @@
             <div class="main-services_content">
                 <div class="ml-5">
                     <p>
-                        <strong>MDabroad</strong> claims Funding (MDCF) is our unique
-                        funding program which is designed to address
-                        complicated industry concerns such as risk
-                        mitigation, cash flow, and managing the nuances of
-                        conducting business with foreign entities, MDCF is a
-                        revolutionary payment solution that was developed
-                        for healthcare insurers and TPAs that provides a
-                        highly efficient and unique pre-payment settlement
-                        option. <br> <br>
-                        MDCF helps payers in the international insurance
-                        space, deal with their accounts payable in real time,
-                        maximizing prompt payment discounts while
-                        enjoying a convenient payback term.
-                        <strong>MDabroad</strong> offers a complimentary assessment to
-                        facilitate immediate implementation for this product.
-                        md abroad is committed to helping providers,
-                        insurance companies, and insureds to be made
-                        whole when third parties are culpable for the injuries
-                        suffered by insureds. <br> <br>
-                        <strong>Recoveries/Subrogation</strong> <br>
-                        Our company works closely with numerous leading
-                        attorneys who focus on subrogation and lien
-                        enforcement Services where there is third party
-                        responsibility. Upon request, md abroad can partner
-                        up injured insureds with attorneys in the jurisdiction
-                        where the accident occurred to provide counsel if
-                        the injuries stem from the fault of another. Ultimately,
-                        md abroad consistently reviews the facts of all
-                        injuries and accidents with counsel to determine if
-                        dollars can be recovered for all interested parties.
+                    <strong>MDabroad</strong> claims Funding (MDCF) is our unique funding program which is designed to address complicated industry concerns such as risk mitigation, cash flow, and managing the nuances of conducting business with foreign entities, MDCF is a revolutionary payment solution that was developed for healthcare insurers and TPAs that provides a highly efficient and unique pre-payment settlement option. <br> <br>
+
+MDCF helps payers in the international insurance space, deal with their accounts payable in real time, maximizing prompt payment discounts while enjoying a convenient payback term. <br><strong> MDabroad</strong> offers a complimentary assessment to facilitate immediate implementation for this product. <br>
+md  abroad is committed to helping providers, insurance companies, and insureds to be made whole when third parties are culpable for the injuries suffered by insureds. <br> <br>
+
+<strong>Recoveries/Subrogation</strong> <br> Our company works closely with numerous leading attorneys who focus on subrogation and lien enforcement Services where there is third party responsibility. Upon request, md  abroad can partner up injured insureds with attorneys in the jurisdiction where the accident occurred to provide counsel if the injuries stem from the fault of another. Ultimately, md  abroad consistently reviews the facts of all injuries and accidents with counsel to determine if dollars can be recovered for all interested parties.
                     </p>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000">
@@ -783,12 +677,8 @@
                 <div data-aos="fade-right" data-aos-duration="1000"> <img class="position-img-2" src="{{ url('assets/img/service/service13.jpeg') }}" alt=""></div>
                 <div class="ml-4">
                     <p>
-                        Payers can get substantial discounts when paying
-                        within 7 to 10 days. But many insurance companies
-                        can’t pay that fast.
-                        Trough Revenue Cycle for Payment Management,
-                        we optimize the discounts for the payer and the
-                        revenue cycle for providers.
+                    Payers can get substantial discounts when paying within 7 to 10 days. But many insurance companies can’t pay that fast. <br><br> Trough Revenue Cycle for Payment Management, we optimize the discounts for the payer and the revenue cycle for providers.
+
                     </p>
                     <div class="content-service-btn text-center">
                         <span>Want ot know more?</span><br>
@@ -805,12 +695,8 @@
             <div class="main-services_content">
                 <div class="ml-content">
                     <p>
-                        Our cloud-based proprietary web application is
-                        available in real time 24/7, 365-days-a-year
-                        through a secure connection. <br><br>
-                        Our State-of-the-art web application provides access
-                        to real-time processing, detailed information related
-                        to specific claims, processes and status updates.
+                    Our cloud-based proprietary web application is available in real time 24/7, 365-days-a-year through a secure connection. <br><br>
+Our State-of-the-art web application provides access to real-time processing, detailed information related to specific claims, processes and status updates.
                     </p>
                     <div class="text-center  mr-5 pr-5 mt-5">
                         <span>Access your Information</span><br>
@@ -965,21 +851,20 @@
     <section class="md-abrodad main-cyber position-relative" style="background:url('assets/img/service/section.png');background-position: center;    height: 60vh;
     background-position: 0px -15rem !important;" id="cybersecurity">
         <div class="circle"></div>
-        <!---   <div class="mask-md">
+          <div class="mask-md">
         <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
 
-                <strong>CYBERSECURITY: </strong>
-                <strong>AHEAD OF THE HERE AND NOW
+                <strong>CYBERSECURITY: AHEAD</strong>
+                <strong> OF THE HERE AND NOW
                 </strong>
-                <p>Personal Health Information Confidentiality
-                    ALL our personnel complies with the strictest industry requirements,
-                    namely HIPAA (Health Insurance Portability and Accountability Act) .
 
-                    and GDPR (General Data Protection Regulation), regarding the safeguard
-                    of the patient’s confidential information. We invest significant resources in
-                    creating, maintaining and updating all our software and process.</p>
+                <p> <strong>personal Health Information Confidentiality</strong> <br> ALL our personnel complies with the strictest industry requirements, namely HIPAA (Health Insurance Portability and Accountability Act) and GDPR (General Data
+Protection Regulation), regarding the safeguard of the patient’s confidential
+information. We invest significant resources in creating, maintaining and updating
+all our software and processes to assure the highest degree of Cybersecurity
+in all our transactions.</p>
             </div>
-        </div>-->
+        </div>
     </section>
 
     <section class="main-about" id="about">
@@ -987,34 +872,12 @@
             <h2><strong>ABOUT US</strong></h2>
             <div class="row">
                 <div class="col-md-6">
-                    <p>
-                        <strong> MDabroad</strong> was founded in 2000 with a specific
-                        aim: to bridge the gaps between insurers and
-                        medical providers in the Americas.
-                    </p>
-                    <p>
-                        <strong>MDabroad </strong> offers comprehensive and customized
-                        services to meet the distinctive requirements of two
-                        main groups: healthcare insurers, traveler’s
-                        assistance companies and third-party administrators
-                        (TPAs) and healthcare providers
-                    </p>
-                    <p>With its headquarters in Miami, Florida and a
-                        highly-trained exclusive service center in Buenos
-                        Aires, Argentina, we developed a network of
-                        medical providers while we began providing
-                        services for world-class insurance and traveler’s
-                        assistance companies. </p>
-                    <p>
-                        Over the years, <strong>MDabroad</strong> has developed a
-                        role of unquestionable leadership in the healthcare
-                        industry as the first facilitator for the financial needs
-                        of international health industry payers and hospitals
-                        and medical services providers in general.
-                    </p>
-                    <p>Since 2000, we have managed over $1 billion
-                        dollars in the settlement of medical claims between
-                        insurers and healthcare.</p>
+                <p> <strong>MDabroad </strong> was founded in 2000 with a specific aim: to bridge the gaps between insurers and medical providers in the Americas.</p>
+<p> <strong>MDabroad</strong> offers comprehensive and customized services to meet the distinctive requirements of two main groups: healthcare insurers, traveler’s assistance companies and third-party administrators (TPAs) and healthcare providers. </p>
+<p>
+<p>With its headquarters in Miami, Florida and a highly-trained exclusive service center in Buenos Aires, Argentina, we developed a network of medical providers while we began providing services for world-class insurance and traveler’s assistance companies.</p>
+Over the years, MDabroad  has developed a role of unquestionable leadership in the healthcare industry as the first facilitator for the financial needs of international health industry payers and hospitals and medical services providers in general. </p>
+<p>Since 2000, we have managed over $1 billion dollars in the settlement of medical claims between insurers and healthcare</p>
                 </div>
                 <div class="col-md-6">
                     <p>Our formula is simple: We strive to be a reliable
@@ -1145,12 +1008,12 @@
 
 
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (9).jpeg') }}" alt=""></div>
+                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/a.jpeg') }}" alt=""></div>
             </div>
         </div>
     </section>
 
-    <section class="md-abrodad advaced" style="background:url('assets/img/other/services (2).png')">
+    <section class="md-abrodad advaced" style="background:url('assets/img/bg.jpeg');background-position: top!important;">
         <div class="md-abrodad_item container" data-aos="fade-up" data-aos-duration="2000">
 
             <strong>ADVANCED PAYMENT </strong>
@@ -1168,15 +1031,8 @@
                 <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/other/servine6.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
-                        <strong> MDabroad </strong> Claims Funding (MDCF) is our unique
-                        funding program which is designed to address
-                        complicated industry concerns such as risk
-                        mitigation, cash flow, and managing the nuances of
-                        conducting business with foreign entities. <br><br>
-                        MDCF is a revolutionary payment solution that was
-                        developed for healthcare insurers and TPAs that
-                        provides a highly efficient and unique pre-payment
-                        settlement option.
+                   <strong> MDabroad </strong> Claims Funding (MDCF) is our unique funding program which is designed to address complicated industry concerns such as risk mitigation, cash flow, and managing the nuances of conducting business with foreign entities.  <br> <br>
+MDCF is a revolutionary payment solution that was developed for healthcare insurers and TPAs that provides a highly efficient and unique pre-payment settlement option.
                     </p>
 
 
@@ -1196,13 +1052,10 @@
                             RESOLVING CLAIMS.</h5>
                     </div>
                     <p>
-                        Healthcare providers can benefit from our Claims
-                        Advance Fund that advances payments on claims.
-                        Healthcare providers enjoy accelerated cash flow,
-                        reduced accounts receivable, and diminished
-                        delinquent accounts. <br><br>
-                        Providers can enjoy a reduction of medical loss and
-                        expenses associated with claims resolution.
+                    Healthcare providers can benefit from our Claims Advance Fund that advances payments on claims.
+Healthcare providers enjoy accelerated cash flow, reduced accounts receivable, and diminished delinquent accounts.  <br><br>
+Providers can enjoy a reduction of medical loss and expenses associated with claims resolution.
+<strong>MDabroad </strong> is happy to evaluate your specific needs as a healthcare provider.
                     </p>
 
                 </div>
@@ -1220,13 +1073,11 @@
                     </div>
                     <p>
                         <strong>It's all about process.</strong><br>
-                        MDAbroad sees the settlement and collection of invoices as the culmination of a well-performed
-                        process that aims at bridging compliance requirements.<br>
-                        The following functionality may be achieved through md abroad.<br><br>
+                        <strong>MDAbroad</strong> sees the settlement and collection of invoices as the culmination of a well-performed process that aims at bridging compliance requirements.
+The following functionality may be achieved through <strong>MDabroad</strong>
+.<br><br>
                         <strong>Universal and Compliant Platform</strong><br>
-                        Getting it right from the start. Our compliant platform ensures
-                        that PHI and sensitive financial information is communicated securely and in compliance with
-                        regulatory standards.
+                        Getting it right from the start. Our compliant platform ensures that PHI and sensitive financial information is communicated securely and in compliance with regulatory standards.
                     </p>
 
                 </div>
@@ -1241,16 +1092,9 @@
                             GOPS, EXTENSIONS</h5>
                     </div>
                     <p>
-                        Providers use our platform to supply payers with specific
-                        information necessary to issue a payment guarantee
-                        and communicate relevant policy information. <br><br>
-                        Our tools allow providers to communicate specific
-                        information to appropriate ICD and CPT codes
-                        which allows insurers to more easily identify
-                        excluded events up front, such as pre-existing
-                        conditions and certain non-covered medical items,
-                        such as certain medical devices and hospital
-                        amenities.
+
+Providers use our platform to supply payers with specific information necessary to issue a payment guarantee and communicate relevant policy information.  <br> <br>
+Our tools allow providers to communicate specific information to appropriate ICD and CPT codes which allows insurers to more easily identify excluded events up front, such as pre-existing conditions and certain non-covered medical items, such as certain medical devices and hospital amenities.
                     </p>
 
                 </div>
@@ -1285,11 +1129,11 @@
                         <h5>AGGREGATION, THE POWER OF NUMBERS</h5>
                     </div>
                     <p>
-                        Choosing MDabroad means that you are choosing
+                        Choosing <strong> MDabroad </strong> means that you are choosing
                         to be a major player in the international healthcare
                         market. As are strategic partners with many strong
                         international payers, sitting at the center of tens of
-                        thousands of claims per year, md abroad is armed
+                        thousands of claims per year, <strong> MDabroad </strong> is armed
                         with the unmatched data and resolution channels
                         that result in reduced denials and improved
                         collections.
@@ -1302,7 +1146,7 @@
                         consultation, SMS and WhatsApp notifications and
                         communication with patients and their families.</p>
                 </div>
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (8).png') }}" alt=""></div>
+                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/shutterstock_1774880540.jpeg') }}" alt=""></div>
             </div>
         </div>
     </section>
@@ -1384,7 +1228,7 @@
                     <h5 class="h5_footer">Call now: 568 564 9876</h5>
                 </div>
                 <div class="col-md-4">
-                <div class="redes redes-foter ">
+                    <div class="redes redes-foter ">
                         <ul>
                             <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
                                 </a></li>
