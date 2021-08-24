@@ -29,6 +29,7 @@ html {
 
 }
 body {
+    overflow-x: hidden;
   font-family: "futura-light";
 }
 
@@ -134,7 +135,7 @@ button:focus {
 }
 
 .hamburger--elastic .hamburger-inner {
-  top: 6px;
+  top: 0px;
   transition-duration: 0.275s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   margin-top: .2rem;
@@ -211,7 +212,7 @@ button:focus {
 .main-content {
     display: grid;
     grid-auto-rows: 23rem;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-template-columns:1fr 1fr 1fr 1fr;
     gap: 1.5rem;
     margin: 0 2rem;
 }
@@ -227,6 +228,7 @@ button:focus {
   font-size: 1.2rem;
   margin-bottom: 0;
   margin-top: .5rem;
+  line-height: 1;
 }
 .main-content_txt span {
   color: #32bee9;
@@ -317,6 +319,7 @@ strong {
 .main-services_content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 .main-services_content strong {
   color: #000;
@@ -324,14 +327,14 @@ strong {
 .main-services_content p {
     color: #000;
     max-width: 98%;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .main-services_item span {
     color: #000000;
     font-size: 1.2rem;
 }
 .main-services_content img {
-  width: 650px;
+  width: 100%;
   height: 100vh;
   object-fit: cover;
   object-position: top;
@@ -339,11 +342,13 @@ strong {
 
 .titles-service {
   margin: 1.5rem 0;
+  margin-left: 3.8rem;
+
 }
 .titles-service h2 {
   color: #32bee9;
   font-family: futura-bold;
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-left: 1.5rem;
 }
 .titles-service h5 {
@@ -905,7 +910,7 @@ body, html{
     height: 100%!important;
 }
 .position-img-3{
-    object-position: -40rem 0!important;
+    object-position: -25rem 0!important;
 }
 
 .ml-content{
@@ -922,4 +927,14 @@ body, html{
 .h5_footer{
     font-size: 1.5rem;
     font-family: 'futura-medium';
+}
+.txt-custom{
+    font-size: 1.5rem;
+    margin-left: -11px;
+}
+.main-about p{
+    font-size: 1.3rem;
+}
+.dierction-section{
+    text-align: end;
 }

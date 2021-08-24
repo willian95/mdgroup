@@ -34,11 +34,6 @@
                     </span>
                 </button>
 
-                <button class="navbar-toggler  border-0 hamburger hamburger--elastic " data-toggle="offcanvas" type="button">
-                    <span class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                    </span>
-                </button>
 
             </div>
             <div class="navbar ml-auto nav-desk">
@@ -70,6 +65,11 @@
                         </ul>
                     </div>
 
+                    <button class="navbar-toggler  border-0 hamburger hamburger--elastic " data-toggle="offcanvas" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
                 </ul>
             </div>
 
@@ -120,7 +120,7 @@
                             <li><a href="#levels">Service Levels</a></li>
                             <li><a href="#cybersecurity">Cybersecurity</a></li>
                             <li><a href="#about"> About Mdabroad</a></li>
-                            <li> <a href="#"> Top Management Bios</a></li>
+                            <li> <a href="#top"> Top Management Bios</a></li>
                             <li><a href="#management">Secure Platform for International Claims</a></li>
                             <li><a href="#management">Management</a></li>
                             <li><a href="#case-status">Case Status, Communications Log and Audit Trail</a></li>
@@ -222,34 +222,37 @@
                 <div class="col-md-7">
                     <div class="slider-banner items_blue">
                         <div>
-                            <p>Provider Networks</p>
-                            <p>LATAM: Largest Proprietary Network</p>
+                            <p><strong>Provider Networks</strong></p>
+                            <p>
+                            LATAM: Largest Proprietary Network</p>
                             <p>USA: Aetna Insurance Network </p>
+                            <p>Global:  Robust Networks in the EU, ME, Asia</p>
+
                         </div>
                         <div>
-                            <p>Comprehensive Cost Containment</p>
+                            <p><strong>Comprehensive Cost Containment</strong></p>
                             <p>Discounted Networks</p>
-                            <p>Pre-certification / VOBs </p>
-                            <p>Medical Case Management </p>
-                            <p>(routine, intermediate, complex)
-                            </p>
-                            <p>Payer Discount Optimization Program</p>
-                            <p>Hotel/Home Visiting Doctors</p>
-                            <p>Telemedicine</p>
-                            <p>AssisticaMD®</p>
+                           <p> Pre-certification / VOBs</p>
+                          <p>  Medical Case Management</p>
+                          <p><small>(routine, intermediate, complex)</small></p>
+                           <p> Payer Discount Optimization Program</p>
+
+                           <p> Hotel/Home Visiting Doctors</p>
+
+                           <p>  Telemedicine</p>
+                          <p>  AssisticaMD®</p>
                         </div>
                         <div>
-                            <p> Core Services</p>
-                            <p>24/7 VIP Medical Assistance Service</p>
+                            <p> <strong>Core Services</strong></p>
+                            <p> 24/7 VIP Medical Assistance Service</p>
                             <p>TPA for Claims Management </p>
                             <p>Full Policy Support</p>
-                            <p>GDPR & HIPPA Compliant</p>
-                            <p>Advanced Information Technologies</p>
-                            <p>Unique Expertise in LATAM & the Caribbean </p>
-
+                            <p> GDPR & HIPPA Compliant</p>
+                            <p> Advanced Information Technologies</p>
+                            <p>Unique Expertise in LATAM & the Caribbean</p>
                             <p>While-Label Resources</p>
-                            <p>Transparent Reporting </p>
-                            <p>International Legal Support</p>
+                            <p> Transparent Reporting </p>
+                            <p> International Legal Support</p>
                         </div>
                     </div>
                 </div>
@@ -315,31 +318,35 @@
                     <img src="{{ url('assets/img/mini/recursoimg4.jpeg')}}" alt="">
 
                     <div class="main-content_txt">
-                        <p> COST <br>
-                            CONTAINMENT</p>
+                        <p> COST
+                        </p>
+                        <span>CONTAINMENT</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="{{ url('assets/img/mini/ddRecurso 8.png') }}" alt="">
+                    <img src="{{ url('assets/img/doc.jpeg') }}" alt="">
                     <div class="main-content_txt">
-                        <p>MEDICAL <br>
-                            ASSISTANCE</p>
+                        <p>MEDICAL
+                        </p>
+                        <span>ASSISTANCE</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="{{ url('assets/img/mini/recursoimg3.jpeg') }}" alt="">
                     <div class="main-content_txt">
                         <p>TRAVEL <br>
-                            ASSISTANCE</p>
+                        </p>
+                        <span>ASSISTANCE</span>
                     </div>
                 </div>
 
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/qqRecurso 8.png') }}" alt="">
+                    <img src="{{ url('assets/img/mini/qqRecurso 8.jpeg') }}" alt="">
 
                     <div class="main-content_txt">
-                        <p>QUALITY <br>
-                            ASSURANCE</p>
+                        <p>QUALITY
+                           </p>
+                           <span> ASSURANCE</span>
                     </div>
                 </div>
             </div>
@@ -356,7 +363,7 @@
                 <h2>BEST-IN-CLASS COST CONTAINMENT <br> VIA STRATEGIC RELATIONSHIPS</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/serviceq.jpg') }}" alt=""></div>
+                <div><img src="{{ url('assets/img/service/serviceq.jpg') }}" alt=""></div>
                 <div class="ml-4">
                     <p> To attain optimal savings and exceptional client experience, <strong>MDGroup</strong> / <strong>MDabroad</strong> offer clients the power of LEVERAGED relationships with key brands and novel technologies. Our collaborative strategy lowers payer losses due to inpatient and outpatient claims.
                         <br><br>
@@ -403,7 +410,7 @@
                     </div>
 
                 </div>
-                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/tarjeta.jpeg') }}" alt=""></div>
+                <div class="dierction-section"><img src="{{ url('assets/img/service/tarjeta.jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5">
@@ -411,7 +418,7 @@
                 <h2>A FOCUS ON INTELLIGENT COST CONTAINMENT</h2>
             </div>
             <div class="main-services_content">
-                <div class="position-relative" data-aos="fade-left" data-aos-duration="1000">
+                <div class="position-relative" >
                     <div class="circle"></div>
                     <img style="    object-position: left;" src="{{ url('assets/img/mini/1Recurso 3.jpeg') }}" alt="">
                 </div>
@@ -447,7 +454,7 @@
                         <strong>MDabroad´s</strong> can assist travelers all over the globe with an exclusive network of the most highly credentialed providers, for both outpatient and inpatient care. <strong>MDabroad</strong> offers unique packages to support the unique needs of travelers in any part of the world. Our integrated packages include travel assistance Services before, during, and upon return. We extend travel preparation Services, so they are informed of potential health risks prior to travel.
                     </p>
                 </div>
-                <div data-aos="fade-right" data-aos-duration="1000"><img style="height: auto;" src="{{ url('assets/img/service/serivece2.jpeg') }}" alt=""></div>
+                <div class="dierction-section"><img style="height: auto;" src="{{ url('assets/img/service/serivece2.jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5" id="better-assistance">
@@ -455,7 +462,7 @@
                 <h2 class="m">BETTER MEDICAL ASSISTANCE</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-left" data-aos-duration="1000">
+                <div >
                     <img class="position-img-3" style="    height: 100%;" src="{{ url('assets/img/service/services (9).jpeg') }}" alt="">
                 </div>
                 <div class="">
@@ -468,7 +475,7 @@
                         · Prescribe Medication. <br>
                         Discount Program for our client’s members. <br> <br>
 
-                        <strong>White-glove approach to additional services:</strong>
+                        <strong>White-glove approach to additional services:</strong><br>
                         · Accompanying person in case of prolonged <br>
                         hospitalization - Air Travel and/or Lodging.<br>
                         · Cases arising from the practice of sports.<br>
@@ -511,7 +518,7 @@
                         • Vomiting<br>
                     </p>
                 </div>
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (8).jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/service/services (8).jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5" id="extraordinary-assistance">
@@ -519,7 +526,7 @@
                 <h2>EXTRAORDINARY ASSISTANCE SERVICES</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-left" data-aos-duration="1000">
+                <div >
                     <img src="{{ url('assets/img/service/services (6).jpeg') }}" alt="">
                 </div>
                 <div class="">
@@ -540,7 +547,7 @@
         </div>
         <div class="main-services_item" id="technical">
             <div class="titles-service " data-aos="fade-right">
-                <h2>TECHNICAL & PERSONAL TRAVEL ASSISTANCE</h2>
+                <h2 class="txt-custom">TECHNICAL & PERSONAL TRAVEL ASSISTANCE</h2>
             </div>
             <div class="main-services_content">
 
@@ -570,7 +577,7 @@
                         <b style="color: transparent;">• </b>specialists and immediate response teams.
                     </p>
                 </div>
-                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/service/services (5).jpeg') }}" alt=""></div>
+                <div class="dierction-section"><img src="{{ url('assets/img/service/services (5).jpeg') }}" alt=""></div>
             </div>
         </div>
 
@@ -579,7 +586,7 @@
                 <h2>FRAUD CONTROL</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/test.jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/service/test.jpeg') }}" alt=""></div>
                 <div class="ml-4 center center-flex">
                     <p class="txt-strong">FORWARD VISION COST CONTAINMENT <br> FRAUD
                         CONTROL AND AUDITING
@@ -600,12 +607,12 @@
             <div class="main-services_content">
                 <div class="ml-5">
                     <p>
-                  <strong>  MDabroad</strong> complements the in-house provider network administration areas of insurance companies and third-party administrators. <br> <br>
-We have built up solid credit worthiness with an extensive network of strong healthcare providers, including the most renowned international patient hospitals around the world. <br> <br>
-Through <strong>MDabroad</strong> , many international insurers and TPAs obtain direct access to hospitals who will not only invoice them directly (thus making it cashless for the insured), but also benefit from discounts and other preferred payment considerations that only MD abroad can provide through its rich information and vast financial resources. <br> <br> <strong>MDabroad</strong> is the most reliable and objective healthcare provider network for the management and administration of foreign patients in many
+                        <strong> MDabroad</strong> complements the in-house provider network administration areas of insurance companies and third-party administrators. <br> <br>
+                        We have built up solid credit worthiness with an extensive network of strong healthcare providers, including the most renowned international patient hospitals around the world. <br> <br>
+                        Through <strong>MDabroad</strong> , many international insurers and TPAs obtain direct access to hospitals who will not only invoice them directly (thus making it cashless for the insured), but also benefit from discounts and other preferred payment considerations that only MD abroad can provide through its rich information and vast financial resources. <br> <br> <strong>MDabroad</strong> is the most reliable and objective healthcare provider network for the management and administration of foreign patients in many
                     </p>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000">
+                <div class="dierction-section">
                     <img class="img-height" src="{{ url('assets/img/service/map.jpeg') }}" alt="">
                 </div>
 
@@ -617,7 +624,7 @@ Through <strong>MDabroad</strong> , many international insurers and TPAs obtain 
             </div>
             <div class="main-services_content">
 
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/services (1).jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/service/services (1).jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
                         <strong> MDabroad</strong> offers payers meticulous case
@@ -649,21 +656,21 @@ Through <strong>MDabroad</strong> , many international insurers and TPAs obtain 
         </div>
         <div class="main-services_item mt-5" id="funding">
             <div class="titles-service " data-aos="fade-right">
-                <h2 class="ml-5">FUNDING PROGRAM , RECOVERIES,
+                <h2 class="ml-5">FUNDING PROGRAM , RECOVERIES, <br>
                     SUBROGATION</h2>
             </div>
             <div class="main-services_content">
                 <div class="ml-5">
                     <p>
-                    <strong>MDabroad</strong> claims Funding (MDCF) is our unique funding program which is designed to address complicated industry concerns such as risk mitigation, cash flow, and managing the nuances of conducting business with foreign entities, MDCF is a revolutionary payment solution that was developed for healthcare insurers and TPAs that provides a highly efficient and unique pre-payment settlement option. <br> <br>
+                        <strong>MDabroad</strong> claims Funding (MDCF) is our unique funding program which is designed to address complicated industry concerns such as risk mitigation, cash flow, and managing the nuances of conducting business with foreign entities, MDCF is a revolutionary payment solution that was developed for healthcare insurers and TPAs that provides a highly efficient and unique pre-payment settlement option. <br> <br>
 
-MDCF helps payers in the international insurance space, deal with their accounts payable in real time, maximizing prompt payment discounts while enjoying a convenient payback term. <br><strong> MDabroad</strong> offers a complimentary assessment to facilitate immediate implementation for this product. <br>
-md  abroad is committed to helping providers, insurance companies, and insureds to be made whole when third parties are culpable for the injuries suffered by insureds. <br> <br>
+                        MDCF helps payers in the international insurance space, deal with their accounts payable in real time, maximizing prompt payment discounts while enjoying a convenient payback term. <br><strong> MDabroad</strong> offers a complimentary assessment to facilitate immediate implementation for this product. <br>
+                        md abroad is committed to helping providers, insurance companies, and insureds to be made whole when third parties are culpable for the injuries suffered by insureds. <br> <br>
 
-<strong>Recoveries/Subrogation</strong> <br> Our company works closely with numerous leading attorneys who focus on subrogation and lien enforcement Services where there is third party responsibility. Upon request, md  abroad can partner up injured insureds with attorneys in the jurisdiction where the accident occurred to provide counsel if the injuries stem from the fault of another. Ultimately, md  abroad consistently reviews the facts of all injuries and accidents with counsel to determine if dollars can be recovered for all interested parties.
+                        <strong>Recoveries/Subrogation</strong> <br> Our company works closely with numerous leading attorneys who focus on subrogation and lien enforcement Services where there is third party responsibility. Upon request, md abroad can partner up injured insureds with attorneys in the jurisdiction where the accident occurred to provide counsel if the injuries stem from the fault of another. Ultimately, md abroad consistently reviews the facts of all injuries and accidents with counsel to determine if dollars can be recovered for all interested parties.
                     </p>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000">
+                <div class="dierction-section">
                     <img src="{{ url('assets/img/service/services (11).jpeg') }}" alt="">
                 </div>
 
@@ -674,10 +681,10 @@ md  abroad is committed to helping providers, insurance companies, and insureds 
                 <h2>SERVICE AT THE SPEED OF DISCOUNT</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img class="position-img-2" src="{{ url('assets/img/service/service13.jpeg') }}" alt=""></div>
-                <div class="ml-4">
+                <div> <img class="position-img-2" src="{{ url('assets/img/service/service13.jpeg') }}" alt=""></div>
+                <div class="ml-4 mt-5">
                     <p>
-                    Payers can get substantial discounts when paying within 7 to 10 days. But many insurance companies can’t pay that fast. <br><br> Trough Revenue Cycle for Payment Management, we optimize the discounts for the payer and the revenue cycle for providers.
+                        Payers can get substantial discounts when paying within 7 to 10 days. But many insurance companies can’t pay that fast. <br><br> Trough Revenue Cycle for Payment Management, we optimize the discounts for the payer and the revenue cycle for providers.
 
                     </p>
                     <div class="content-service-btn text-center">
@@ -693,17 +700,17 @@ md  abroad is committed to helping providers, insurance companies, and insureds 
                     ANYWHERE , ANY PLATFORM</h2>
             </div>
             <div class="main-services_content">
-                <div class="ml-content">
+                <div class="ml-content mt-5">
                     <p>
-                    Our cloud-based proprietary web application is available in real time 24/7, 365-days-a-year through a secure connection. <br><br>
-Our State-of-the-art web application provides access to real-time processing, detailed information related to specific claims, processes and status updates.
+                        Our cloud-based proprietary web application is available in real time 24/7, 365-days-a-year through a secure connection. <br><br>
+                        Our State-of-the-art web application provides access to real-time processing, detailed information related to specific claims, processes and status updates.
                     </p>
                     <div class="text-center  mr-5 pr-5 mt-5">
                         <span>Access your Information</span><br>
                         <a class="btn" href="#">Click here</a>
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img class="position-img-1" src="{{ url('assets/img/service/services (12).jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img class="position-img-1" src="{{ url('assets/img/service/services (12).jpeg') }}" alt=""></div>
 
             </div>
         </div>
@@ -713,7 +720,7 @@ Our State-of-the-art web application provides access to real-time processing, de
                     SATISFACTION & QUALITY ASSURANCE</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/service/service7.jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/service/service7.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
                         <strong> Service Delivery Metrics: </strong> <br>
@@ -851,18 +858,18 @@ Our State-of-the-art web application provides access to real-time processing, de
     <section class="md-abrodad main-cyber position-relative" style="background:url('assets/img/service/section.png');background-position: center;    height: 60vh;
     background-position: 0px -15rem !important;" id="cybersecurity">
         <div class="circle"></div>
-          <div class="mask-md">
-        <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
+        <div class="mask-md">
+            <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
 
                 <strong>CYBERSECURITY: AHEAD</strong>
                 <strong> OF THE HERE AND NOW
                 </strong>
 
-                <p> <strong>personal Health Information Confidentiality</strong> <br> ALL our personnel complies with the strictest industry requirements, namely HIPAA (Health Insurance Portability and Accountability Act) and GDPR (General Data
-Protection Regulation), regarding the safeguard of the patient’s confidential
-information. We invest significant resources in creating, maintaining and updating
-all our software and processes to assure the highest degree of Cybersecurity
-in all our transactions.</p>
+                <p> <strong style="    font-size: 1rem;">Personal Health Information Confidentiality</strong> <br> ALL our personnel complies with the strictest industry requirements, namely HIPAA (Health Insurance Portability and Accountability Act) and GDPR (General Data
+                    Protection Regulation), regarding the safeguard of the patient’s confidential
+                    information. We invest significant resources in creating, maintaining and updating
+                    all our software and processes to assure the highest degree of Cybersecurity
+                    in all our transactions.</p>
             </div>
         </div>
     </section>
@@ -872,12 +879,15 @@ in all our transactions.</p>
             <h2><strong>ABOUT US</strong></h2>
             <div class="row">
                 <div class="col-md-6">
-                <p> <strong>MDabroad </strong> was founded in 2000 with a specific aim: to bridge the gaps between insurers and medical providers in the Americas.</p>
-<p> <strong>MDabroad</strong> offers comprehensive and customized services to meet the distinctive requirements of two main groups: healthcare insurers, traveler’s assistance companies and third-party administrators (TPAs) and healthcare providers. </p>
-<p>
-<p>With its headquarters in Miami, Florida and a highly-trained exclusive service center in Buenos Aires, Argentina, we developed a network of medical providers while we began providing services for world-class insurance and traveler’s assistance companies.</p>
-Over the years, MDabroad  has developed a role of unquestionable leadership in the healthcare industry as the first facilitator for the financial needs of international health industry payers and hospitals and medical services providers in general. </p>
-<p>Since 2000, we have managed over $1 billion dollars in the settlement of medical claims between insurers and healthcare</p>
+                    <p> <strong>MDabroad </strong> was founded in 2000 with a specific aim: to bridge the gaps between insurers and medical providers in the Americas.</p>
+                    <p> <strong>MDabroad</strong> offers comprehensive and customized services to meet the distinctive requirements of two main groups: healthcare insurers, traveler’s assistance companies and third-party administrators (TPAs) and healthcare providers. </p>
+
+                    <p>With its headquarters in Miami, Florida and a highly-trained exclusive service center in Buenos Aires, Argentina, we developed a network of medical providers while we began providing services for world-class insurance and traveler’s assistance companies.</p>
+                  <p>  Over the years, MDabroad has developed a role of unquestionable leadership in the healthcare industry as the first facilitator for the financial needs of international health industry payers and hospitals and medical services providers in general. </p>
+
+
+
+                    <p>Since 2000, we have managed over $1 billion dollars in the settlement of medical claims between insurers and healthcare</p>
                 </div>
                 <div class="col-md-6">
                     <p>Our formula is simple: We strive to be a reliable
@@ -919,7 +929,7 @@ Over the years, MDabroad  has developed a role of unquestionable leadership in t
 
     </section>
 
-    <section class="main-management pt-5 mt-3 position-relative" style="    height: 60vh;">
+    <section id="top" class="main-management pt-5 mt-3 position-relative" style="    height: 60vh;">
         <div class="titles-service mt-0">
             <h2>TOP MANAGEMENT BIOS</h2>
         </div>
@@ -1008,7 +1018,7 @@ Over the years, MDabroad  has developed a role of unquestionable leadership in t
 
 
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/a.jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/a.jpeg') }}" alt=""></div>
             </div>
         </div>
     </section>
@@ -1028,11 +1038,11 @@ Over the years, MDabroad  has developed a role of unquestionable leadership in t
                 <h2>LIKE ACETAMINOPHEN FOR YOUR CFO</h2>
             </div>
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"><img src="{{ url('assets/img/other/servine6.jpeg') }}" alt=""></div>
+                <div><img src="{{ url('assets/img/other/servine6.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
-                   <strong> MDabroad </strong> Claims Funding (MDCF) is our unique funding program which is designed to address complicated industry concerns such as risk mitigation, cash flow, and managing the nuances of conducting business with foreign entities.  <br> <br>
-MDCF is a revolutionary payment solution that was developed for healthcare insurers and TPAs that provides a highly efficient and unique pre-payment settlement option.
+                        <strong> MDabroad </strong> Claims Funding (MDCF) is our unique funding program which is designed to address complicated industry concerns such as risk mitigation, cash flow, and managing the nuances of conducting business with foreign entities. <br> <br>
+                        MDCF is a revolutionary payment solution that was developed for healthcare insurers and TPAs that provides a highly efficient and unique pre-payment settlement option.
                     </p>
 
 
@@ -1052,20 +1062,20 @@ MDCF is a revolutionary payment solution that was developed for healthcare insur
                             RESOLVING CLAIMS.</h5>
                     </div>
                     <p>
-                    Healthcare providers can benefit from our Claims Advance Fund that advances payments on claims.
-Healthcare providers enjoy accelerated cash flow, reduced accounts receivable, and diminished delinquent accounts.  <br><br>
-Providers can enjoy a reduction of medical loss and expenses associated with claims resolution.
-<strong>MDabroad </strong> is happy to evaluate your specific needs as a healthcare provider.
+                        Healthcare providers can benefit from our Claims Advance Fund that advances payments on claims.
+                        Healthcare providers enjoy accelerated cash flow, reduced accounts receivable, and diminished delinquent accounts. <br><br>
+                        Providers can enjoy a reduction of medical loss and expenses associated with claims resolution.
+                        <strong>MDabroad </strong> is happy to evaluate your specific needs as a healthcare provider.
                     </p>
 
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/services (5).jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/other/services (5).jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5  main-service_modif">
 
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/service4.jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/other/service4.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <div class="titles-service " data-aos="fade-right">
                         <h5>SECURE PLATFORM FOR INTERNATIONAL<br>
@@ -1073,9 +1083,9 @@ Providers can enjoy a reduction of medical loss and expenses associated with cla
                     </div>
                     <p>
                         <strong>It's all about process.</strong><br>
-                        <strong>MDAbroad</strong> sees the settlement and collection of invoices as the culmination of a well-performed process that aims at bridging compliance requirements.
-The following functionality may be achieved through <strong>MDabroad</strong>
-.<br><br>
+                        <strong>MDAbroad</strong> sees the settlement and collection of invoices as the culmination of a well-performed process that aims at bridging compliance requirements.  <br>
+                        The following functionality may be achieved through <strong>MDabroad</strong>
+                        .<br><br>
                         <strong>Universal and Compliant Platform</strong><br>
                         Getting it right from the start. Our compliant platform ensures that PHI and sensitive financial information is communicated securely and in compliance with regulatory standards.
                     </p>
@@ -1093,18 +1103,18 @@ The following functionality may be achieved through <strong>MDabroad</strong>
                     </div>
                     <p>
 
-Providers use our platform to supply payers with specific information necessary to issue a payment guarantee and communicate relevant policy information.  <br> <br>
-Our tools allow providers to communicate specific information to appropriate ICD and CPT codes which allows insurers to more easily identify excluded events up front, such as pre-existing conditions and certain non-covered medical items, such as certain medical devices and hospital amenities.
+                        Providers use our platform to supply payers with specific information necessary to issue a payment guarantee and communicate relevant policy information. <br> <br>
+                        Our tools allow providers to communicate specific information to appropriate ICD and CPT codes which allows insurers to more easily identify excluded events up front, such as pre-existing conditions and certain non-covered medical items, such as certain medical devices and hospital amenities.
                     </p>
 
                 </div>
-                <div data-aos="fade-left" data-aos-duration="1000"> <img src="{{ url('assets/img/other/service3.jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/other/service3.jpeg') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5  main-service_modif" id="case-status">
 
             <div class="main-services_content">
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/other/sericies1.jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/other/sericies1.jpeg') }}" alt=""></div>
                 <div class="ml-4 center">
                     <div class="titles-service " data-aos="fade-right">
                         <h5>CASE STATUS, COMMUNICATIONS LOG <br>
@@ -1146,7 +1156,7 @@ Our tools allow providers to communicate specific information to appropriate ICD
                         consultation, SMS and WhatsApp notifications and
                         communication with patients and their families.</p>
                 </div>
-                <div data-aos="fade-right" data-aos-duration="1000"> <img src="{{ url('assets/img/shutterstock_1774880540.jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/shutterstock_1774880540.jpeg') }}" alt=""></div>
             </div>
         </div>
     </section>
@@ -1185,10 +1195,10 @@ Our tools allow providers to communicate specific information to appropriate ICD
         <div class="row">
             <div class="col-md-4 footer_item">
                 <p> <a href="#mix-of-services">The Perfect Mix of Services</a></p>
-                <p> <a href="#summary-of-services"> A Brief Summary of Services</a></p>
+                <p> <a href="#summary-of-services">A Brief Summary of Services</a></p>
                 <p> <a href="#assistance-services"> 365/24/7 Assistance Services</a></p>
                 <p><a href="#better-assistance"> Better Medical Assistance</a></p>
-                <p> <a href="#technical">Technical & Personal Travel Assitance</a></p>
+                <p> <a href="#technical">Technical & Personal Travel Assistance</a></p>
                 <p> <a href="#extraordinary-assistance">Extraordinary Assistance Services</a></p>
                 <p> <a href="#telemedicine"> Telemedicine: The Future is Here</a></p>
                 <p> <a href="#fraud"> Fraud Control and Auditing</a></p>
@@ -1205,16 +1215,17 @@ Our tools allow providers to communicate specific information to appropriate ICD
                 <p> <a href="#cybersecurity">Cybersecurity
                     </a></p>
                 <p> <a href="#about"> About Mdabroad</a></p>
-                <p> <a href="#"> Top Management Bios</a></p>
+                <p> <a href="#top"> Top Management Bios</a></p>
             </div>
             <div class="col-md-4 footer_item">
                 <p> Read more: </p>
                 <p> <a href="#management"> Secure Platform for International Claims</a></p>
                 <p><a href="#management"> Management</a></p>
-                <p> <a href="#case-status"> Case Status, Communications Log</a></p>
-                <p> <a href="#legibility">Elegibility : Verification of Benefits,</a></p>
-                <p> <a href="#legibility">GOPs, Extensions</a></p>
-                <p> <a href="#like-acetaminofen">Like Acetaminofen for your CFO
+                <p> <a href="#case-status"> Case Status, Communications Log
+and Audit Trail</a></p>
+                <p> <a href="#legibility">Elegibility : Verification of Benefits, </a></p>
+                <p> <a href="#legibility">GOPs, Extension</a></p>
+                <p> <a href="#like-acetaminofen">Like Acetaminophen for your CFO
                     </a></p>
                 <p> <a href="#aggregation"> Aggregation: the Power of Numbers
                     </a></p>
