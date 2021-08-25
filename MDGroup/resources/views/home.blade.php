@@ -264,13 +264,13 @@
     <section id="">
         <div class="slider-promise">
             <div>
-                <img src="{{ url('assets/img/Untitled-5-02.png') }}" alt="">
+                <img src="{{ url('assets/img/services/banner Mdabroad-01.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ url('assets/img/Untitled-5-03.png') }}" alt="">
+                <img src="{{ url('assets/img/services/banner MD Capital-01.png') }}" alt="">
             </div>
             <div>
-                <img src="{{ url('assets/img/Untitled-5-01.png') }}" alt="">
+                <img src="{{ url('assets/img/services/banner-Mdamericas.png') }}" alt="">
             </div>
         </div>
         <!----<div class="slider-promise">
