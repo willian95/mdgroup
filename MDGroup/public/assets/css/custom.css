@@ -211,21 +211,30 @@ button:focus {
 }
 .main-content {
     display: grid;
-    grid-auto-rows: 23rem;
+
     grid-template-columns:1fr 1fr 1fr 1fr;
     gap: 1.5rem;
     margin: 0 2rem;
+    margin-bottom: 1rem;
+}
+@media (max-width: 576px) {
+
+    .main-content {
+
+        grid-template-columns:1fr;
+
+    }
 }
 .main-content img {
-  width: 100%;
-  height: 70%;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 .main-content_txt p {
   font-family: "futura-bold";
   color: #32bee9;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin-bottom: 0;
   margin-top: .5rem;
   line-height: 1;
@@ -233,7 +242,7 @@ button:focus {
 .main-content_txt span {
   color: #32bee9;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: lighter;
 }
 .main-background {
@@ -334,10 +343,9 @@ strong {
     font-size: 1.2rem;
 }
 .main-services_content img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  object-position: top;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .titles-service {
@@ -361,7 +369,7 @@ strong {
   overflow: hidden;
 }
 .main-services_item-edit {
-  height: 76vh;
+  height: auto;
 }
 .main-services_item-edit .center {
   display: flex;
@@ -370,9 +378,8 @@ strong {
   height: 76vh;
 }
 .main-services_item-edit img {
-  height: 60%;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
+  object-fit: contain;
 }
 .txt-strong {
   color: #32bee9 !important;
@@ -597,7 +604,7 @@ footer {
   display: none !important;
 }
 .h90{
-  height: 90vh;
+  height: auto;
 }
 @media (max-width: 768px) {
   .main-services_content {

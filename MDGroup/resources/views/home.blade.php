@@ -159,28 +159,28 @@
         <div class="">
             <div class="main-content">
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="{{ url('assets/img/mini/1Recurso 1.jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/services/20years.png') }}" alt="">
                     <div class="main-content_txt">
                         <p>+20 years of</p>
                         <span>global operations</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="{{ url('assets/img/service/shutterstock_736876354.jpg') }}" alt="">
+                    <img src="{{ url('assets/img/services/FotoJet.jpg') }}" alt="">
                     <div class="main-content_txt">
                         <p>INTEGRATION</p>
                         <span>of our services</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/billon.jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/services/1billion.png') }}" alt="">
                     <div class="main-content_txt">
                         <p> +1 BILLION</p>
                         <span> IN PROCESSED CLAIMS</span>
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/hands.jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/services/Top Notch.png') }}" alt="">
                     <div class="main-content_txt">
                         <p> TOP NOTCH</p>
                         <span> MANAGEMENT</span>
@@ -315,7 +315,7 @@
         <div class="">
             <div class="main-content">
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/recursoimg4.jpeg')}}" alt="">
+                    <img src="{{ url('assets/img/services/Cost-Containment.png')}}" alt="">
 
                     <div class="main-content_txt">
                         <p> COST
@@ -324,7 +324,7 @@
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="{{ url('assets/img/doc.jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/services/medical-Assistance.png') }}" alt="">
                     <div class="main-content_txt">
                         <p>MEDICAL
                         </p>
@@ -332,7 +332,7 @@
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="{{ url('assets/img/mini/recursoimg3.jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/services/Travel-assistance.png') }}" alt="">
                     <div class="main-content_txt">
                         <p>TRAVEL <br>
                         </p>
@@ -341,7 +341,7 @@
                 </div>
 
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="{{ url('assets/img/mini/qqRecurso 8.jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/services/Quality-assistance.png') }}" alt="">
 
                     <div class="main-content_txt">
                         <p>QUALITY
@@ -363,7 +363,7 @@
                 <h2>BEST-IN-CLASS COST CONTAINMENT <br> VIA STRATEGIC RELATIONSHIPS</h2>
             </div>
             <div class="main-services_content">
-                <div><img src="{{ url('assets/img/service/serviceq.jpg') }}" alt=""></div>
+                <div><img src="{{ url('assets/img/services/Best-in-class.png') }}" alt=""></div>
                 <div class="ml-4">
                     <p> To attain optimal savings and exceptional client experience, <strong>MDGroup</strong> / <strong>MDabroad</strong> offer clients the power of LEVERAGED relationships with key brands and novel technologies. Our collaborative strategy lowers payer losses due to inpatient and outpatient claims.
                         <br><br>
@@ -410,7 +410,7 @@
                     </div>
 
                 </div>
-                <div class="dierction-section"><img src="{{ url('assets/img/service/tarjeta.jpeg') }}" alt=""></div>
+                <div class="dierction-section"><img src="{{ url('assets/img/services/best-in-class2.png') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5">
@@ -420,7 +420,7 @@
             <div class="main-services_content">
                 <div class="position-relative" >
                     <div class="circle"></div>
-                    <img style="    object-position: left;" src="{{ url('assets/img/mini/1Recurso 3.jpeg') }}" alt="">
+                    <img style="    object-position: left;" src="{{ url('assets/img/services/Focus-on.png') }}" alt="">
                 </div>
                 <div class="ml-4">
                     <p> <strong> Cost Management</strong></p>
@@ -454,7 +454,7 @@
                         <strong>MDabroad´s</strong> can assist travelers all over the globe with an exclusive network of the most highly credentialed providers, for both outpatient and inpatient care. <strong>MDabroad</strong> offers unique packages to support the unique needs of travelers in any part of the world. Our integrated packages include travel assistance Services before, during, and upon return. We extend travel preparation Services, so they are informed of potential health risks prior to travel.
                     </p>
                 </div>
-                <div class="dierction-section"><img style="height: auto;" src="{{ url('assets/img/service/serivece2.jpeg') }}" alt=""></div>
+                <div class="dierction-section"><img style="height: auto;" src="{{ url('assets/img/services/365-24-7.png') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5" id="better-assistance">
@@ -463,7 +463,7 @@
             </div>
             <div class="main-services_content">
                 <div >
-                    <img class="position-img-3" style="    height: 100%;" src="{{ url('assets/img/service/services (9).jpeg') }}" alt="">
+                    <img class="" src="{{ url('assets/img/services/Better-medical-assistance.png') }}" alt="">
                 </div>
                 <div class="">
                     <p>
@@ -518,7 +518,7 @@
                         • Vomiting<br>
                     </p>
                 </div>
-                <div class="dierction-section"> <img src="{{ url('assets/img/service/services (8).jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/services/telemedicine.png') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5" id="extraordinary-assistance">
@@ -527,7 +527,7 @@
             </div>
             <div class="main-services_content">
                 <div >
-                    <img src="{{ url('assets/img/service/services (6).jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/services/Extraordinary-assistance.png') }}" alt="">
                 </div>
                 <div class="">
 
@@ -577,7 +577,7 @@
                         <b style="color: transparent;">• </b>specialists and immediate response teams.
                     </p>
                 </div>
-                <div class="dierction-section"><img src="{{ url('assets/img/service/services (5).jpeg') }}" alt=""></div>
+                <div class="dierction-section"><img src="{{ url('assets/img/services/technical-&-personal.png') }}" alt=""></div>
             </div>
         </div>
 
@@ -586,7 +586,7 @@
                 <h2>FRAUD CONTROL</h2>
             </div>
             <div class="main-services_content">
-                <div> <img src="{{ url('assets/img/service/test.jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/services/Fraud-control.png') }}" alt=""></div>
                 <div class="ml-4 center center-flex">
                     <p class="txt-strong">FORWARD VISION COST CONTAINMENT <br> FRAUD
                         CONTROL AND AUDITING
@@ -613,7 +613,7 @@
                     </p>
                 </div>
                 <div class="dierction-section">
-                    <img class="img-height" src="{{ url('assets/img/service/map.jpeg') }}" alt="">
+                    <img class="img-height" src="{{ url('assets/img/services/Worlwide-network.png') }}" alt="">
                 </div>
 
             </div>
@@ -624,7 +624,7 @@
             </div>
             <div class="main-services_content">
 
-                <div> <img src="{{ url('assets/img/service/services (1).jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/services/Claims-management.png') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
                         <strong> MDabroad</strong> offers payers meticulous case
@@ -671,7 +671,7 @@
                     </p>
                 </div>
                 <div class="dierction-section">
-                    <img src="{{ url('assets/img/service/services (11).jpeg') }}" alt="">
+                    <img src="{{ url('assets/img/services/Funding-program.png') }}" alt="">
                 </div>
 
             </div>
@@ -681,7 +681,7 @@
                 <h2>SERVICE AT THE SPEED OF DISCOUNT</h2>
             </div>
             <div class="main-services_content">
-                <div> <img class="position-img-2" src="{{ url('assets/img/service/service13.jpeg') }}" alt=""></div>
+                <div> <img class="p" src="{{ url('assets/img/services/Service-at-speed.png') }}" alt=""></div>
                 <div class="ml-4 mt-5">
                     <p>
                         Payers can get substantial discounts when paying within 7 to 10 days. But many insurance companies can’t pay that fast. <br><br> Trough Revenue Cycle for Payment Management, we optimize the discounts for the payer and the revenue cycle for providers.
@@ -710,7 +710,7 @@
                         <a class="btn" href="#">Click here</a>
                     </div>
                 </div>
-                <div class="dierction-section"> <img class="position-img-1" src="{{ url('assets/img/service/services (12).jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img class="" src="{{ url('assets/img/services/Acces-your-information.png') }}" alt=""></div>
 
             </div>
         </div>
@@ -720,7 +720,7 @@
                     SATISFACTION & QUALITY ASSURANCE</h2>
             </div>
             <div class="main-services_content">
-                <div> <img src="{{ url('assets/img/service/service7.jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/services/Focus-on-the-person.png') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
                         <strong> Service Delivery Metrics: </strong> <br>
@@ -855,8 +855,7 @@
         </div>
     </section>
 
-    <section class="md-abrodad main-cyber position-relative" style="background:url('assets/img/service/section.png');background-position: center;    height: 60vh;
-    background-position: 0px -15rem !important;" id="cybersecurity">
+    <section class="md-abrodad main-cyber position-relative" style="background:url('assets/img/services/Cybersecurity.png');background-position: center!important;    height: 64vh;" id="cybersecurity">
         <div class="circle"></div>
         <div class="mask-md">
             <div class="md-abrodad_item container" data-aos="zoom-in" data-aos-duration="2500">
@@ -1018,7 +1017,7 @@
 
 
                 </div>
-                <div class="dierction-section"> <img src="{{ url('assets/img/a.jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/services/located-in-south.png') }}" alt=""></div>
             </div>
         </div>
     </section>
@@ -1038,7 +1037,7 @@
                 <h2>LIKE ACETAMINOPHEN FOR YOUR CFO</h2>
             </div>
             <div class="main-services_content">
-                <div><img src="{{ url('assets/img/other/servine6.jpeg') }}" alt=""></div>
+                <div><img src="{{ url('assets/img/services/Like-acetaminophen.png') }}" alt=""></div>
                 <div class="ml-4 center">
                     <p>
                         <strong> MDabroad </strong> Claims Funding (MDCF) is our unique funding program which is designed to address complicated industry concerns such as risk mitigation, cash flow, and managing the nuances of conducting business with foreign entities. <br> <br>
@@ -1069,13 +1068,13 @@
                     </p>
 
                 </div>
-                <div class="dierction-section"> <img src="{{ url('assets/img/other/services (5).jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/services/we-have-establishes.png') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5  main-service_modif">
 
             <div class="main-services_content">
-                <div> <img src="{{ url('assets/img/other/service4.jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/services/secure-platform.png') }}" alt=""></div>
                 <div class="ml-4 center">
                     <div class="titles-service " data-aos="fade-right">
                         <h5>SECURE PLATFORM FOR INTERNATIONAL<br>
@@ -1108,13 +1107,13 @@
                     </p>
 
                 </div>
-                <div class="dierction-section"> <img src="{{ url('assets/img/other/service3.jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/services/Elegebility.png') }}" alt=""></div>
             </div>
         </div>
         <div class="main-services_item mt-5  main-service_modif" id="case-status">
 
             <div class="main-services_content">
-                <div> <img src="{{ url('assets/img/other/sericies1.jpeg') }}" alt=""></div>
+                <div> <img src="{{ url('assets/img/services/Case-status.png') }}" alt=""></div>
                 <div class="ml-4 center">
                     <div class="titles-service " data-aos="fade-right">
                         <h5>CASE STATUS, COMMUNICATIONS LOG <br>
@@ -1156,7 +1155,7 @@
                         consultation, SMS and WhatsApp notifications and
                         communication with patients and their families.</p>
                 </div>
-                <div class="dierction-section"> <img src="{{ url('assets/img/shutterstock_1774880540.jpeg') }}" alt=""></div>
+                <div class="dierction-section"> <img src="{{ url('assets/img/services/Aggregation.png') }}" alt=""></div>
             </div>
         </div>
     </section>
