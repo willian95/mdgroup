@@ -335,8 +335,8 @@ strong {
 }
 .main-services_content p {
     color: #000;
-    max-width: 98%;
-    font-size: 1.2rem;
+
+    font-size: 1.5rem;
 }
 .main-services_item span {
     color: #000000;
@@ -356,8 +356,8 @@ strong {
 .titles-service h2 {
   color: #32bee9;
   font-family: futura-bold;
-  font-size: 2.3rem;
-  margin-left: 1.5rem;
+  font-size: 3rem;
+  margin-left: 1rem;
 }
 .titles-service h5 {
   color: #32bee9;
@@ -692,11 +692,7 @@ body, html{
   height: 90vh;
 
 }
-.main-services_content p {
 
-  max-width: 95%;
-
-}
 .mt-5, .my-5 {
   margin-top: 0rem!important;
 }
@@ -948,10 +944,11 @@ body, html{
 @media screen and (min-width: 1900px){
     .main-services_content p {
 
-        font-size: 1.9rem;
+        font-size: 2.1rem;
     }
     .titles-service h2 {
-        font-size: 2.7rem;
+        margin-left: 1.5rem;
+        font-size: 4rem;
     }
     .main-content_txt span {
         font-size: 1.9rem;
