@@ -558,7 +558,7 @@ h2 {
   font-family: futura-light;
 }
 .bg-section-slider {
-    height: 60vh;
+    height: 70vh;
     background-position: top!important;
 }
 .bg-section-slider h2 strong {
@@ -566,7 +566,7 @@ h2 {
 }
 .bg-section-slider p {
   color: #000;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .footer_end {
 }
