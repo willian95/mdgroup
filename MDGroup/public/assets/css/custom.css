@@ -1054,4 +1054,8 @@ body, html{
     width: 60px;
     height: 166px;
 }
+.titles-service h5 {
+
+    font-size: 2rem;
+}
 }

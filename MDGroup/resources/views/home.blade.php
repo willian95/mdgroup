@@ -951,7 +951,7 @@
 
             <div class="items-job-1">
                 <p><strong>Ralph Patiño</strong> CFO & COO</p>
-                <span>Experienced Financial Director with 30+ years in the health care, financial services and aviation sectors.
+                <span style="padding: 4rem 2rem;">Experienced Financial Director with 30+ years in the health care, financial services and aviation sectors.
                     Skilled in Corporate Finance, Hedge Funds, Cost Planning, Finance, and Budget Reconciliation.
                     Strong financial and operations professional.</span>
             </div>
@@ -1076,7 +1076,7 @@
             <div class="main-services_content">
                 <div> <img src="{{ url('assets/img/services/secure-platform.png') }}" alt=""></div>
                 <div class="ml-4 center">
-                    <div class="titles-service " data-aos="fade-right">
+                    <div class="titles-service ml-0" data-aos="fade-right">
                         <h5>SECURE PLATFORM FOR INTERNATIONAL<br>
                             CLAIMS MANAGEMENT</h5>
                     </div>
