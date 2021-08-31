@@ -166,7 +166,7 @@
                     </div>
                 </div>
                 <div class="main-content_item" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="{{ url('assets/img/services/FotoJet.jpg') }}" alt="">
+                    <img src="{{ url('assets/img/services/azul -03.png') }}" alt="">
                     <div class="main-content_txt">
                         <p>INTEGRATION</p>
                         <span>of our services</span>
@@ -425,16 +425,16 @@
                 <div class="ml-4">
                     <p> <strong> Cost Management</strong></p>
 
-                    <p>• US Claims are placed through direct agreements and Aetna Passport Health.</p>
+                    <p>• US Claims are placed through direct agreements <br> and Aetna Passport Health.</p>
                     <p>
-                        • On critical care cases, we deploy immediate resources, coordination of specialists and immediate response teams.
+                        • On critical care cases, we deploy immediate <br> resources, coordination of specialists and immediate <br> response teams.
                         <br> <br>
-                        • Fraud control and auditing. Using local resources worldwide, we pay in local currency through our own staff, avoiding manipulation of pharmacy and consultation prices.
+                        • Fraud control and auditing. Using local resources <br> worldwide, we pay in local currency through our <br> own staff, avoiding manipulation of pharmacy and <br> consultation prices.
                     </p>
 
-                    <p> <strong> Proactive cost containment in US hospitals.</strong> </p>
+                    <p> <strong> Proactive cost containment in US <br> hospitals.</strong> </p>
 
-                    <p>• We deploy a network of hospitalists who manage care within the hospital setting on a proactive basis, as opposed to traditional case management and audit that happens after the fact.</p>
+                    <p>• We deploy a network of hospitalists who manage <br> care within the hospital setting on a proactive basis, <br> as opposed to traditional case management and <br> audit that happens after the fact.</p>
                 </div>
 
 
@@ -466,7 +466,7 @@
                     <img class="" src="{{ url('assets/img/services/Better-medical-assistance.png') }}" alt="">
                 </div>
                 <div class="">
-                    <p>
+                    <p class="p-font">
                         <strong> Coordination of outpatient and/or inpatient care for any medical condition:</strong> <br><br>
                         · Dental Services. <br>
                         · House Calls. <br>
@@ -1053,7 +1053,7 @@
 
             <div class="main-services_content">
                 <div class="ml-content center">
-                    <div class="titles-service " data-aos="fade-right">
+                    <div class="titles-service ml-0 " data-aos="fade-right">
                         <h5>WE HAVE ESTABLISHES AN <br>
                             INDUSTRY-FIRST INTERNATIONAL <br>
                             CLAIMS ADVANCED FUND TO SATISFY <br>
@@ -1096,7 +1096,7 @@
         <div class="main-services_item mt-5  main-service_modif" id="legibility">
             <div class="main-services_content">
                 <div class="ml-content center">
-                    <div class="titles-service " data-aos="fade-right">
+                    <div class="titles-service ml-0 " data-aos="fade-right">
                         <h5>ELEGIBILITY : VERIFICATION OF BENEFITS, <br>
                             GOPS, EXTENSIONS</h5>
                     </div>
@@ -1134,7 +1134,7 @@
         <div class="main-services_item mt-5  main-service_modif" id="aggregation">
             <div class="main-services_content">
                 <div class="ml-content center">
-                    <div class="titles-service" data-aos="fade-right">
+                    <div class="titles-service ml-0" data-aos="fade-right">
                         <h5>AGGREGATION, THE POWER OF NUMBERS</h5>
                     </div>
                     <p>
@@ -1147,7 +1147,7 @@
                         that result in reduced denials and improved
                         collections.
                     </p>
-                    <div class="titles-service " data-aos="fade-right">
+                    <div class="titles-service ml-0 " data-aos="fade-right">
                         <h5>WHITE LABEL MOBILE APPLICATIONS</h5>
                     </div>
                     <p>Our suite of applications and IT products enables
